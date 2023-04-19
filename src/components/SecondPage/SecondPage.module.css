@@ -1,0 +1,7 @@
+
+.pic_array {
+    padding: 20px;
+    /*border:10px solid blue;*/
+    display:inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+}

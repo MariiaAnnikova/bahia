@@ -1,0 +1,9 @@
+.arch_pic_array {
+    height: 100hv;
+    width: 100vw;
+    padding: 20px;
+    /*border:10px solid blue;*/
+ 
+    display:inline-grid;
+    grid-template-columns: repeat(3, 3fr);
+}

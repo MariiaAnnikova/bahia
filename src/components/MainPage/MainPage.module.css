@@ -1,0 +1,30 @@
+
+
+
+.main {
+  
+    display: flex;
+    padding-top: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+   display: flex;
+   justify-content: center;
+     }
+
+     .logo img:nth-child(1){
+        height: 200px;
+        width: 400px;
+    }
+
+    .logo img:nth-child(2){
+    margin-left: 100px;
+    }
+        
+
+    
