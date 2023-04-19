@@ -7,7 +7,7 @@ export const projects = [
         year: 2020,
         program: ' Private House ',
         description: 'A little architecture in the woods. A cube made of timber sized 250cm per 250cm per 250cm. A sauna for a family and a little community.',
-        avatar: './img/Sauna2.jpg', 
+        avatar: '.img2/img/Sauna2.jpg', 
         photo_1: "./img/Sauna1.jpg",
         photo_3: "./img/Sauna3.jpg",
         photo_4: "./img/Sauna4.jpg",
