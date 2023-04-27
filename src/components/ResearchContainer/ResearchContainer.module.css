@@ -1,0 +1,30 @@
+.second_page_container{
+    width: 400px;
+    height: 400px;
+    margin: 50px;
+  }
+
+.picture {
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+    transition: all 0.5s ease;
+    box-shadow: rgba(70, 49, 49, 0.25) 0px 5px 15px;
+}
+
+.picture:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.second_page_container a {
+    text-decoration: none;
+    color: black;
+    
+}
+.grid p {
+    opacity: 0;
+}
+.grid:hover p{
+    opacity: 10;
+    transition: opacity 1.5s; 
+}

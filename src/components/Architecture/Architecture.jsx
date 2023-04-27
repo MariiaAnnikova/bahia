@@ -1,8 +1,7 @@
 import React from 'react'
-import { projects } from '../../array/Projects/projects'
 import ArchitectureContainer from '../ArchitectureContainer/ArchitectureContainer';
 import s from './Architecture.module.css'
-
+import { architecture } from '../../array/Architecture/architecture';
 
 export default function Architecture() {
 
@@ -13,8 +12,8 @@ export default function Architecture() {
    
    
   {
-    projects
-    .sort(() => 0.5 - Math.random()).slice(0, 11)
+    architecture
+    .sort(() => 0.5 - Math.random()).slice(0, 13)
     .map((el) => <ArchitectureContainer {...el} key={el.id} />)
   }
 </div>  

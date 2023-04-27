@@ -1,20 +1,39 @@
 import React from 'react'
 import s from './ProjectItemContainer.module.css'
 
-export default function ProjectItemContainer({ title, site, status, year, program, description, avatar, photo_1}) {
+
+export default function ProjectItemContainer({title, site, status, year, program, description, avatar, photos}) {
 
 
-  return (
-    <div>
-      <p>{ title}</p>
-          <p>{ site}</p>
-          <p>{ status}</p>
-         <p>{year}</p>
-         <p>{program}</p>
-        <p>{description} </p>
-         <img src={avatar} alt='Architectura' className={s.pic}/>
-         <img src={photo_1} alt='Architectura'/>
+
+console.log(photos);
+  //const All = photo.map(photo)
+  // console.log(All); 
+  
+   return (
+ <div>  
+<div className={s.top}>
+    <div className={s.project_item_left}>
+    <h1>{title}</h1>
+  <h2>{site}</h2>
+  <h3>{status}</h3>
+  <h4>{year}</h4>
+  <h5>{program}</h5>
     </div>
-  )
-}
+  <div className={s.project_item_right}>
+  <img src={avatar} alt='t' className={s.avatar} />
+  
+  </div>
+  </div> 
 
+  <div className={s.project_descr}>
+  <h4>{description}</h4>
+  </div>
+  <div className={s.arr_project_photo}>
+ <p>
+  { photos.map(photoUrl => <img src={photoUrl} alt='t' className={s.arr_photo}/> )}
+</p>
+</div>
+</div> 
+
+)}

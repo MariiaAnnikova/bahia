@@ -5,3 +5,13 @@
     display:inline-grid;
     grid-template-columns: repeat(3, 1fr);
 }
+
+@media(max-width: 400px){
+ .pic_array{
+    padding: 17px;
+    max-width: 400px;
+    display:inline-grid;
+    grid-template-columns: repeat(1, 1fr);
+ }
+
+}

@@ -1,4 +1,139 @@
-.pic {
+.top {
+    display: flex;
+    justify-content: space-around;
+   
+}
+.project_item_left{
+    padding-top: 50px;
+    height: 350px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    font-size: 18px;
+    font-family: 'Montserrat';
+    transition: all 0.5s ease;
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out 0.3s forwards;
+  }
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+.avatar {
+    height: 400px;
+    width: 400px;
+    margin: 10px;
+    object-fit: contain;
+    transition: all 0.5s ease;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.avatar:hover{
+    transform: scale(1.1, 1.1);
+}
+.arr_photo {
+    display:inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: relative;
+    left: 60px;
+    height: 400px;
+    width: 400px;
+    margin: 30px;
+    object-fit: contain;
+    transition: all 0.5s ease;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.arr_photo:hover {
+    transform: scale(1.1, 1.1);
+}
+.project_descr{
+   
+    width: 1000px;
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 18px;
+    line-height: 40px;
+    font-family: 'Montserrat';
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out 0.5s forwards;
+ }
+
+ @keyframes fadeIn {
+     0% { opacity: 0; }
+     100% { opacity: 1; }
+   }
+
+   @media(max-width: 400px){
+    .avatar {
+        height: 360px;
+        width: 360px;
+        margin: 5px;
+        object-fit: contain;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        
+    }
+    /* .arr_project_photo{
+    max-width: 400px;
+    margin-left: -45px;
+    margin-top: 180px;
+    }
+    */
+    .arr_photo {
+        display:inline-grid;
+        grid-template-columns: repeat(1, 1fr);
+        position: relative;
+        height: 360px;
+        width: 360px;
+        margin: 5px;
+        margin-top: 25px;
+        margin-left: -46px;
+        object-fit: contain;
+        
+    }
+
+    .project_item_right{
+        padding-top: 20px;
+        padding-left: 10px;
+        height: 200px;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        transition: all 0.5s ease;
+} 
+.top {
+   display: flex; 
+   flex-direction: column;
+   padding-bottom: 20px;
+}
+.project_descr{
+   display: none;
+    width: 380px;
+    margin-left: 8px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: 'Montserrat';
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out 0.5s forwards;
+ }
+ .project_item_left{
+    padding-top: 30px;
+    padding-left: 20px;
     height: 300px;
     width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    font-size: 18px;
+    font-family: 'Montserrat';
+    transition: all 0.5s ease;
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out 0.3s forwards;
+  }
+
+
 }
+

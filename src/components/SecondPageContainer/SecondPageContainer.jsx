@@ -2,8 +2,9 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import s from './SecondPageContainer.module.css'
 
-export default function SecondPageContainer({ id, avatar}) {
+export default function SecondPageContainer({ id, avatar, site}) {
 
+  console.log(avatar);
   
   return (
   
@@ -14,6 +15,7 @@ export default function SecondPageContainer({ id, avatar}) {
     
       <div className={s.grid}>
       <img alt='Architectura' src={avatar} className={s.picture}/>
+      <p>{site}</p>
       </div>
       </Link>
     

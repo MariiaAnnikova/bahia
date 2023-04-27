@@ -18,6 +18,19 @@
 
   }
 
+  .architecture_container a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .architecture_container p {
+    opacity: 0;
+  }
+  .architecture_container:hover p{
+    opacity: 10;
+    transition: opacity 1s; 
+  }
+
 /*.second_page_container:nth-child(1) img{
     border: 3px solid green;
 }
