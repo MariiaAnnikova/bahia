@@ -16,7 +16,7 @@ export const res = [
         id: 2,
         title: "Eurafrica ",
         site:   'Ardeth Magazine',
-        status: 'Built',
+        status: 'Magazine Publication',
         year: 2021,
         program: ' ',
         description: 'In 1928 the german architect and philosopher Herman Sorgel proposed his project for an isolated and lowered mediterranean sea, named Atlantropa. His vision was to close the Strait of Gibraltar with a portentous hydroelectric dam; lock the Suez Canal to the Red Sea; and cut off the Black Sea through the Dardanelles.It was his belief that this international and collective endeavour would bring peace among all the participants once the appearance of new agricultural land came to fruition due to the lowering of the sea levels. Being the son of a hydroelectric engineer, Sorgel thought of Atlantropa as something more than a mere utopia: he studied the construction details and figures of the epic operation for 20 years, and never ceased to strive for its completion. Nearly a century after this meta-continental project was conceptualised, we can attempt to adopt his solution to question the geopolitical borders of contemporary Europe. Focusing on the Strait of Gibraltar, the so called “first world” is separated from the “third world” by a narrow strip of water: a rupture that is not only physical but overall cultural and political.This visual exercise aims at using Sorgel’s historical power dam at the entrance of the Mediterranean to re-question the idea of national and continental frontier between Europe and northern Africa. Could a geophysical border become an architecture to live, a threshold to dwell? Could a power dam become a buffer zone for cultural and social mixitè?From Sorgel’s Atlantropa, to Le Corbusier’s Plan Obus; from Constant’s New Babylon to Kenzo Tange’s Tokyo Bay, the images propose a large infrastructure, prompted by XX century’s utopias and mega projects. A monument that is continuous in its political value and cultural bridging function',
@@ -112,15 +112,14 @@ export const res = [
     } ,
     {
         id: 10,
-        title: 'INNOVATION IN PRACTICE IN THEORY, AA.VV',
-        site: ' San Francisco',
-        status: '',
+        title: 'JOHN RUSKIN, ARCHITECTURAL INNOVATION IN ANONYMITY',
+        site: '',
+        status: 'INNOVATION IN PRACTICE IN THEORY, AA.VV',
         year:  2022,
-        program: 'Applied Research & Design',
-        description: 'An industrial, half abandoned area in Milan’s darkest periphery is asking for an urban redevelopment: 50’000 square meters of social housing and facilities to fill what is currently seen as an urban void. Wood Sprawl undertakes the study of the peripheries along with their flaws and the monsters they left behind from the bygone 50s, the 60s and the 70s along with the lack of any care, design or any social integration. The superposition of a rational grid meant to solve all problems and flatten any diversity and challenging peculiarity. It aims to change the paradigm in suburban developments, no longer ex-novo constructions and massive buildings but rather precise surgical interventions to bring new life to the abandoned current structures. The void now becomes an urban forest, not a garden, not a park but a forest. A forest where the unexpected is welcome, where the rigid grid of the cities expansion has no value, where rational patterns stop at the borders and architecture is brought back to its primordial phase, in complete harmony with nature. A wooded area with a succession of clearings, dense patches, lakes and towers hosts small chapels, high slim bridges, floating swimming pools and metaphysical platforms. The square meters the city requires are distributed around the area: empty warehouses, deposits, occupied houses and roofless cascinas are brought back to life through rigorous study and precise interventions on the existing. All connected to the central forest through promenades that extend above the rooftops, above the yards and above the treetops. The public functions the city needs, closer to the center of the forest; the more private functions, towards the outer extremities of the footbridges. The urban scale of the periphery now becomes the first design factor for what was intended to be a series of traditional buildings',
+        program: 'Applied Research & Design, San Francisco ',
+        description: 'Publication - book chapter AA.VV',
         avatar: "/img/Innovation1.png", 
-        photos: ["/img/Innovation1.png", "/img/Innovation2.png", "/img/Innovation3.png"],
-        files: '/File/INNOVATION.pdf'
+        photos: ["/img/Innovation1.png", "/img/Innovation2.png", "/img/Innovation3.png"]
     } ,
     {
         id: 11,
@@ -130,8 +129,8 @@ export const res = [
         year:  2016,
         program: 'Tutor Stefano Boeri',
         description: 'The creation of a thick forest in the abandoned railway yard of Scalo di Porta Romana in Milano. The urban project for the perimeter design proposes a new solution for the urban capacity defined by the municipality of Milano, 150.000 sqm. Rather than filling the void, the project proposes to protect it with a built crown and a large untouched forest. This project will then be developed by Stefano Boeri Architetti with the “Fiume Verde” and the latter will eventually shape the new urban rules for all the abandoned rail yards in Milano.',
-        avatar: "/img/ONTOLOGIA_1A.png", 
-        photos: ["/img/ONTOLOGIA_1B.png", "/img/ONTOLOGIA_2.jpg", "/img/ONTOLOGIA_3.jpg", "/img/ONTOLOGIA_4.jpg",  "/img/ONTOLOGIA_5.jpg" , "/img/ONTOLOGIA_6.jpg" ,"/img/ONTOLOGIA_7.jpg", "/img/ONTOLOGIA_8.png", "/img/ONTOLOGIA_9.png", "/img/ONTOLOGIA_10.png", "/img/ONTOLOGIA_11.png"],
+        avatar: "/img/ONTOLOGIA_4.jpg", 
+        photos: ["/img/ONTOLOGIA_1B.png", "/img/ONTOLOGIA_2.jpg", "/img/ONTOLOGIA_3.jpg", "/img/ONTOLOGIA_1A.png",  "/img/ONTOLOGIA_5.jpg" , "/img/ONTOLOGIA_6.jpg" ,"/img/ONTOLOGIA_7.jpg", "/img/ONTOLOGIA_8.png", "/img/ONTOLOGIA_9.png", "/img/ONTOLOGIA_10.png", "/img/ONTOLOGIA_11.png"],
         files: ''
     }
     , {

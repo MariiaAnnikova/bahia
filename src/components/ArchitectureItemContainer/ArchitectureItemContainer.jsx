@@ -8,20 +8,19 @@ export default function ArchitectureItemContainer({title, site, status, year, pr
     <div>  
 <div className={s.top}>
     <div className={s.arch_item_left}>
-  <img src={avatar} alt='t' className={s.avatar} />
-    </div>
-  <div className={s.arch_item_right}>
-  <h1>{title}</h1>
+    <h1>{title}</h1>
   <h2>{site}</h2>
   <h3>{status}</h3>
   <h4>{year}</h4>
-  <h5>{program}</h5>
+  <h4>{program}</h4>
+  <h4 className={s.descr}>{description}</h4>
+  
+    </div>
+  <div className={s.arch_item_right}>
+  <img src={avatar} alt='t' className={s.avatar} />
   </div>
   </div> 
 
-  <div className={s.arch_descr}>
-  <h4>{description}</h4>
-  </div>
   <div className={s.arr_arch_photo}>
  <p>
   { photos.map(photoUrl => <img src={photoUrl} alt='t' className={s.arr_photo}/> )}

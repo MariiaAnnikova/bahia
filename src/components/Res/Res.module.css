@@ -2,3 +2,13 @@
     display:inline-grid;
     grid-template-columns: repeat(3, 1fr)
 }
+
+@media(max-width: 400px){
+    .res_grid{
+       margin-top: 30px;
+       max-width: 400px;
+       display:inline-grid;
+       grid-template-columns: repeat(1, 1fr);
+    }
+   
+   }

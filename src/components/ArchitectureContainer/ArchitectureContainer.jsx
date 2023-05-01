@@ -4,14 +4,14 @@ import { Link } from 'react-router-dom'
 
 export default function ArchitectureContainer({id, avatar, site}) {
   return (
-    <div  className={s.architecture_container}> 
+    <div  className={s.architecture_grid}> 
     <Link to= { `${id}` }>
     
-      <div className={s.architecture_grid}>
       <img alt='Architectura' src={avatar} className={s.arch_avatar}/>
-      <p>{site}</p>
-      </div>
       </Link>
+      <p>{site}</p>
+     
+   
     
     </div>
   )

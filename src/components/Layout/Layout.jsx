@@ -3,6 +3,7 @@ import { Outlet } from 'react-router-dom'
 import Nav from '../Nav/Nav'
 import CookiesBanner from '../CookiesBanner/CookiesBanner'
 import { useState } from 'react'
+import Footer from '../Footer/Footer'
 
 
 export default function Layout() {
@@ -14,6 +15,7 @@ export default function Layout() {
       <main>
         <Outlet />
       </main>
+      <Footer />
       <CookiesBanner />
     </div>
   )

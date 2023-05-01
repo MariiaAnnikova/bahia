@@ -110,8 +110,8 @@ export const architecture = [
         year: 2017,
         program: ' Masterplan',
         description: '',
-        avatar: "/img/Europan4.png",
-        photos: ["/img/Europan1.jpg", "/img/Europan2.jpg", "/img/Europan3.jpg", "/img/Europan5.jpg", "/img/Europan6.png", "/img/Europan7.jpg"]
+        avatar: "/img/Europan3.jpg",
+        photos: ["/img/Europan1.jpg", "/img/Europan2.jpg", "/img/Europan4.png", "/img/Europan5.jpg", "/img/Europan6.png", "/img/Europan7.jpg"]
        
     },
     {

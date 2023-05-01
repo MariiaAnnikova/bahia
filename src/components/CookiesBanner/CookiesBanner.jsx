@@ -41,13 +41,13 @@ export default function CookiesBanner({banner}) {
   location="bottom"
   buttonText="I agree!"
   cookieName="myAwesomeCookieName2"
-  style={{ background: "#2B373B" , bottom: '90px'}}
+  style={{ background: "#000000" , bottom: '90px'}}
   buttonStyle={{ color: "#000000", fontSize: "15px" }}
   expires={250}
  
  >
 'We use cookies on our website to give you the most relevant experience by remembering your preferences and repeat visits. By clicking “Accept All”, you consent to the use of ALL the cookies. However, you may visit "Cookie Settings" to provide a controlled consent. Privacy Policy'{" "}
-  <span style={{ fontSize: "14px" }}>This bit of text is smaller</span>
+  <span style={{ fontSize: "14px" }}></span>
 </CookieConsent>
 
 

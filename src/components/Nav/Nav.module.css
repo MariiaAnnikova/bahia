@@ -1,72 +1,87 @@
 .nav_block {
 height: 50px;
 display: flex;
-align-items: center;
-justify-content:space-between;
-padding: 10px;}
-
-.nav_menu {
-display: flex;
 flex-direction: row;
-gap: 200px;
-justify-content: space-around;
-padding-right: 100px;
-
-
+justify-content: space-between;
+gap: 100px;
+margin: 40px 40px 0px;
 }
+.nav_menu {
+      display: flex;
+      flex-direction: row;
+      width: 500px;
+     gap: 10px;
+justify-content: space-around;
+padding-right: 0px;
+font-family: 'Montserrat';
+font-weight:  200;
+font-size: 15px;
+text-transform: uppercase;
+margin-top: 20px;
+      }
+
 .nav_menu a {
     text-decoration: none;
     color: black;
 }
-
-.nav_logo {
-margin-top: 30px;
-position: relative;
-left: 200px;
-border-left-width: 150px;
-   
-}
-
 .nav_logo img {
-    height: 50px;
-    width: 50px;
+    height: 73px;
+    width: 57px;
 }
-
 .icon_plus{
+    width: 50px;
+    height: 50px;
     font-size: 40px;
     display: none;
     cursor: pointer;
 }
 
 @media(max-width: 400px){
-    .icon_plus{
-        display: flex;
-        margin-top: 10px
+   .icon_plus{
+    display: flex;
+font-family: 'Montserrat';
+font-weight:  400;
+font-size: 50px;
+margin-top: 20px;
+margin-right: 20px;
         }
-    .nav_logo {
-           left: 30px;
-        }
+.nav_menu.active {
+            transform: translateY(0%);
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+      gap: 10px;
+    padding-right: 0px;
+      font-family: 'Montserrat';
+      font-weight:  400;
+      font-size: 15px;
+      margin-top: 50px;
+      margin-left: 140px;
+     }
+         
         .nav_logo img {
-            height: 40px;
-            width: 40px;
+            margin: 20px 0px 0px 20px;
+            height: 73px;
+            width: 57px;
+          
         }
          
-    .nav_block {
-        position: relative;
-      }
+        .nav_block {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                gap: 0px;
+                
+                margin: 0px 0px 0px 0px;
+                height: 50px;
+                max-width: 400px;
+                padding: 10px;
+        }
+     
       .nav_menu {
-        position: absolute;
-        top:90%;
-        left: 150px;
-        display: flex;
-        flex-direction: column;
-        gap: 5px;
-        transform: translateY(-210%);
+transform: translateY(-999%);
+
       }
     
-      .nav_menu.active {
-    transform: translateY(0%);
-    left:270px;
-    background-color: white;
-   }
-}
+     
+ }

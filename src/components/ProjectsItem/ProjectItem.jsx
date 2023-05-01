@@ -17,7 +17,7 @@ const project =  projects.find(p => p.id == id);
 
   if (project) {
     
-    return <ProjectItemContainer {...project} key={project.id} />
+    return <div className={s.project_item_container}><ProjectItemContainer {...project} key={project.id} /> </div>
    
    } else {
 

@@ -17,7 +17,7 @@ export const projects = [
         site: 'Celio, Roccheta Ligure, Italy',
         status: 'Under Constraction',
         year: 2021,
-        program: 'Private Sauna',
+        program: '',
         description: 'The renovation of an old barn house focuses on maintaining the presence of the central void and the character of the original materials. Stone, wood, terracotta floors. A private house for a family of yogis whose life is entirely dedicated to meditation. The building is a continuous interaction between reserved and defined spaces with larger and open spaces. The central height is the main feature of the house, which is nothing more than a few rooms around a precise void.',
         avatar: "/img/Celio2.jpg", 
         photos:  ["/img/Celio1.jpg", "/img/Celio3.jpg", '/img/Celio4.jpg']
@@ -97,30 +97,30 @@ export const projects = [
         site:   'Lanzarote',
         status: 'Competition',
         year: 2017,
-        program: ' Public Square',
-        description: 'Should we meet in the palm oasis? A public square is a public square when it is 100 different squares at once, a hundred different variations and infinite possibilities that ever-change to users’s needs. The project proposes this flexibility with a simple device: a regular grid of 100 steel posts distanced 3 by 3 meters. In between this fix skeleton, steel rods manage shade through sun screens, energy production through photovoltaic panels, temporary exhibitions structures always available. Thus the project proposes two parallel surfaces, the ground and the roof. The soil is first a regular surface, than a topography of rubber for little kids to enjoy and explore. Large Local palm trees and steel posts alternate in creating rhythm and shade for all daily activities, combining the perks of fresh vegetation and the performative characters of technological elements.',
+        program: 'Music Factory ',
+        description: '',
         avatar: "/img/viva4.jpg",
         photos: ['/img/viva1.jpg', '/img/viva2.jpg','/img/viva3.jpg']
        } ,  
        {
         id:10,
-        title: "",
+        title: "Europan 14",
         site:   'La Bazana, Spain',
         status: 'Competition',
         year: 2017,
         program: ' Masterplan',
         description: '',
-        avatar: "/img/Europan4.png",
-        photos: ["/img/Europan1.jpg", "/img/Europan2.jpg", "/img/Europan3.jpg", "/img/Europan5.jpg", "/img/Europan6.png", "/img/Europan7.jpg"]
+        avatar: "/img/Europan3.jpg",
+        photos: ["/img/Europan1.jpg", "/img/Europan2.jpg", "/img/Europan4.png", "/img/Europan5.jpg", "/img/Europan6.png", "/img/Europan7.jpg"]
        
     },
     {
         id: 11,
-        title: "",
-        site:   'La Bazana, Spain',
+        title: " Falck Residential Competition",
+        site:   'Milano',
         status: 'Competition',
         year: 2017,
-        program: ' Masterplan',
+        program: ' Residential Units',
         description: 'The project Esencia Rural 2.0 brings forward (proposes) 3 simultaneous actions in order to activate La Bazana’s rich landscape. The first action is of economical and cultural nature: a bottom-up partial change of crops and cultivations practiced on the land.  Considering the important economic value of new chosen varieties, the change will bring new expertise and richness to the rural sphere of the La Bazana and will characterise the village with a strong landscape identity, just like la Pronvece region in south France.The second action once more designs the landscape and brings together all the different natural scenarios of the region. A continuous ring serves as cycle line for a slow mobility and an almost educational walk through the dry lands and lavender fields, the wet lands and aromatic fields, the dehesa woods, the Ardila riverbeds.The third and most affective action is of urban character and designs the future expansions of La Bazana Village. The Front Line project is a non-building that extends for 760 linear meters and has a 9 meter wide section, adapting to the natural topography of the hilly side. It is first of all a linear path way, an urban corridor, a slow infrastructure for daily strolls; and secondly an outline limit for future expansions, to be filled with units according to the village’s growth and needs.',
         avatar: "/img/Falck4.jpg",
         photos: ["/img/Falck1.jpg", "/img/Falck2.jpg", "/img/Falck3.jpg"]
@@ -128,7 +128,7 @@ export const projects = [
     } ,
     {
         id: 12,
-        title: "",
+        title: "Himalayan village",
         site:   'Nepal',
         status: 'Competition',
         year: 2017,
@@ -139,11 +139,11 @@ export const projects = [
      } ,
     {
         id: 13,
-        title: "The CUT",
+        title: "The Cut",
         site:   'Venice',
         status: 'Competition',
         year: 2023,
-        program: ' ',
+        program: ' Domestic Entrance Threshold',
         description: 'Upon a plateau of gentle steps a village arises. It welcomes all the ancient inhabitants of the high mountains valley. Just like a carpet, the base adapts to any topography and becomes part and parcel of the landscape.The project aims to valorise the local traditions and know how, adopting simple building techniques and local materials.Five pure objects stand separately and provide facilities for the community’s needs.  Between them, a game of little alleys and squares create a cluster of knowledge. Each function is separated and individual yet strongly connected to the other; like the atelier and the study hall with their facing entrances. The kitchen and the bathrooms are the only buildings with outwards facing entrances, due to their more specific functions. The collective kitchen provides a large chimney for baking, becoming now a symbol for of collective household.',
         avatar: "/img/TheCut1.jpg", 
         photos: ["/img/TheCut2.jpg", "/img/TheCut3.jpg", "/img/TheCut4.jpg"]
@@ -165,7 +165,7 @@ export const projects = [
         id: 15,
         title: "Eurafrica ",
         site:   'Ardeth Magazine',
-        status: 'Built',
+        status: 'Magazine Publication',
         year: 2021,
         program: ' ',
         description: 'In 1928 the german architect and philosopher Herman Sorgel proposed his project for an isolated and lowered mediterranean sea, named Atlantropa. His vision was to close the Strait of Gibraltar with a portentous hydroelectric dam; lock the Suez Canal to the Red Sea; and cut off the Black Sea through the Dardanelles.It was his belief that this international and collective endeavour would bring peace among all the participants once the appearance of new agricultural land came to fruition due to the lowering of the sea levels. Being the son of a hydroelectric engineer, Sorgel thought of Atlantropa as something more than a mere utopia: he studied the construction details and figures of the epic operation for 20 years, and never ceased to strive for its completion. Nearly a century after this meta-continental project was conceptualised, we can attempt to adopt his solution to question the geopolitical borders of contemporary Europe. Focusing on the Strait of Gibraltar, the so called “first world” is separated from the “third world” by a narrow strip of water: a rupture that is not only physical but overall cultural and political.This visual exercise aims at using Sorgel’s historical power dam at the entrance of the Mediterranean to re-question the idea of national and continental frontier between Europe and northern Africa. Could a geophysical border become an architecture to live, a threshold to dwell? Could a power dam become a buffer zone for cultural and social mixitè?From Sorgel’s Atlantropa, to Le Corbusier’s Plan Obus; from Constant’s New Babylon to Kenzo Tange’s Tokyo Bay, the images propose a large infrastructure, prompted by XX century’s utopias and mega projects. A monument that is continuous in its political value and cultural bridging function',
@@ -253,12 +253,12 @@ export const projects = [
     } ,
     {
         id: 23,
-        title: 'INNOVATION IN PRACTICE IN THEORY, AA.VV',
-        site: ' San Francisco',
-        status: '',
+        title: 'JOHN RUSKIN, ARCHITECTURAL INNOVATION IN ANONYMITY',
+        site: '',
+        status: 'INNOVATION IN PRACTICE IN THEORY, AA.VV.',
         year:  2022,
-        program: 'Applied Research & Design',
-        description: 'An industrial, half abandoned area in Milan’s darkest periphery is asking for an urban redevelopment: 50’000 square meters of social housing and facilities to fill what is currently seen as an urban void. Wood Sprawl undertakes the study of the peripheries along with their flaws and the monsters they left behind from the bygone 50s, the 60s and the 70s along with the lack of any care, design or any social integration. The superposition of a rational grid meant to solve all problems and flatten any diversity and challenging peculiarity. It aims to change the paradigm in suburban developments, no longer ex-novo constructions and massive buildings but rather precise surgical interventions to bring new life to the abandoned current structures. The void now becomes an urban forest, not a garden, not a park but a forest. A forest where the unexpected is welcome, where the rigid grid of the cities expansion has no value, where rational patterns stop at the borders and architecture is brought back to its primordial phase, in complete harmony with nature. A wooded area with a succession of clearings, dense patches, lakes and towers hosts small chapels, high slim bridges, floating swimming pools and metaphysical platforms. The square meters the city requires are distributed around the area: empty warehouses, deposits, occupied houses and roofless cascinas are brought back to life through rigorous study and precise interventions on the existing. All connected to the central forest through promenades that extend above the rooftops, above the yards and above the treetops. The public functions the city needs, closer to the center of the forest; the more private functions, towards the outer extremities of the footbridges. The urban scale of the periphery now becomes the first design factor for what was intended to be a series of traditional buildings',
+        program: 'Applied Research & Design, San Francisco ',
+        description: 'Publication - book chapter.',
         avatar: "/img/Innovation1.png", 
         photos: ["/img/Innovation1.png", "/img/Innovation2.png", "/img/Innovation3.png"]
     } ,
@@ -270,8 +270,8 @@ export const projects = [
         year:  2016,
         program: 'Tutor Stefano Boeri',
         description: 'The creation of a thick forest in the abandoned railway yard of Scalo di Porta Romana in Milano. The urban project for the perimeter design proposes a new solution for the urban capacity defined by the municipality of Milano, 150.000 sqm. Rather than filling the void, the project proposes to protect it with a built crown and a large untouched forest. This project will then be developed by Stefano Boeri Architetti with the “Fiume Verde” and the latter will eventually shape the new urban rules for all the abandoned rail yards in Milano.',
-        avatar: "/img/ONTOLOGIA_1A.png", 
-        photos: ["/img/ONTOLOGIA_1B.png", "/img/ONTOLOGIA_2.jpg", "/img/ONTOLOGIA_3.jpg", "/img/ONTOLOGIA_4.jpg",  "/img/ONTOLOGIA_5.jpg" , "/img/ONTOLOGIA_6.jpg" ,"/img/ONTOLOGIA_7.jpg", "/img/ONTOLOGIA_8.png", "/img/ONTOLOGIA_9.png", "/img/ONTOLOGIA_10.png", "/img/ONTOLOGIA_11.png"]
+        avatar: "/img/ONTOLOGIA_3.jpg", 
+        photos: ["/img/ONTOLOGIA_1B.png", "/img/ONTOLOGIA_2.jpg", "/img/ONTOLOGIA_1A.png", "/img/ONTOLOGIA_4.jpg",  "/img/ONTOLOGIA_5.jpg" , "/img/ONTOLOGIA_6.jpg" ,"/img/ONTOLOGIA_7.jpg", "/img/ONTOLOGIA_8.png", "/img/ONTOLOGIA_9.png", "/img/ONTOLOGIA_10.png", "/img/ONTOLOGIA_11.png"]
     }
     , {
     id: 25,

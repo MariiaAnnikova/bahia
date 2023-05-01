@@ -1,47 +1,86 @@
 .us_block {
- padding: 20px;
- max-width: 1500px;
- height: 800px;
- display: flex;
- flex-direction: column;
- justify-content: space-between;
+
+ align-items: center;
+    justify-content: center;
 }
 .photo_us {
+  
     display: flex;
-    margin-left: 450px;
-    justify-items: center;
-    height: 600px;
-    width: 600px;
+    align-items: center;
+    justify-content: center;
+}
+.photo_us img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    width: 700px;
     object-fit: contain;
     transition: all 0.5s ease;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
 }
 
 /* .photo_us:hover{
     transform: scale(1.1, 1.1);
 } */
-
-.us_left {
- 
-    padding: 10px;
-    width: 700px;
-    box-shadow: rgba(70, 49, 49, 0.35) 0px 5px 15px;
+.us_info {
+   margin: 0px 100px 50px 100px;
 }
 
-.us_right { 
-  
+
+.us_up {
+    font-family: 'Montserrat';
+    font-weight:  400;
+    font-size: 20px;
     padding: 10px;
-    width: 700px;
-    box-shadow: rgba(70, 49, 49, 0.25) 0px 5px 15px;
+    line-height: 30px;
+    text-align: justify;
+   
+
 }
 
-.us_down {
-  
- 
+.us_down{
+    font-family: 'Montserrat';
+    font-weight:  200;
+    font-size: 20px;
+    padding: 10px;
+    line-height: 30px;
+    padding: 10px;
+    text-align: justify;
+    border:1 px solid black;
+}
+.contact_block{
+    margin: 50px 150px 50px 150px;
     display: flex;
-    flex-direction: row;
-    gap: 100px;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+    font-family: 'Montserrat';
+    font-weight:  400;
+    font-size: 20px;
+    line-height: 30px;
     
-    
+}
+.info_icons{
+    margin-right:30px;
+}
+.info_icons_phone{
+   
+ display: flex;
+ gap:30px;
+ font-family: 'Montserrat';
+ font-weight:  400;
+ font-size: 20px;
+ line-height: 30px;
+}
 
+.us_map{
+
+position: relative;
+}
+
+.us_google_map{
+    position: absolute;
+    left: 1000px;
+ top: -60px;
 }

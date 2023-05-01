@@ -8,7 +8,7 @@ import Architecture from "../components/Architecture/Architecture";
 import AboutUs from "../components/AboutUs/AboutUs";
 import ArchitectureItem from "../components/ArchitectureItem/ArchitectureItem";
 import Res from "../components/Res/Res";
-import ResearchItem from "../components/ResearchItem";
+import ResearchItem from "../components/ResearchItem/ResearchItem";
 
 function App() {
 

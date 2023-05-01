@@ -1,15 +1,19 @@
 .second_page_container{
     width: 400px;
     height: 400px;
-    margin: 50px;
+    margin:  100px 40px 10px 40px;
+    position: relative;
+  
   }
 
 .picture {
-    width: 400px;
-    height: 400px;
+    width: 450px;
+    height: 450px;
     object-fit: contain;
     transition: all 0.5s ease;
-    box-shadow: rgba(70, 49, 49, 0.25) 0px 5px 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .picture:hover {
@@ -25,6 +29,10 @@
     opacity: 0;
 }
 .grid:hover p{
-    opacity: 10;
-    transition: opacity 1.5s; 
-}
+    position: absolute;
+    font-family: 'Montserrat';
+font-weight:  600;
+font-size: 15px;
+top: 380px;
+    opacity: 1;
+    transition: opacity 1s; }
