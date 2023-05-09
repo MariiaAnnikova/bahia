@@ -9,7 +9,7 @@ export default function CookiesBanner({banner}) {
   <CookieConsent
   onAccept={(acceptedByScrolling) => {
     if (acceptedByScrolling) {
-      // triggered if user scrolls past threshold
+     
       alert("Accept was triggered by user scrolling");
     } else {
       alert("Accept was triggered by clicking the Accept button");
@@ -24,17 +24,7 @@ export default function CookiesBanner({banner}) {
   }}
 ></CookieConsent>}
 
-// const [showBanner, setShowBanner] = useState(true);
 
-//   const acceptCookies = () => {
-//     posthog.opt_in_capturing();
-//     setShowBanner(false);
-//   }
-
-//   const declineCookies = () => {
-//     posthog.opt_out_capturing();
-//     setShowBanner(false);
-//  }
 
   return (
     <CookieConsent
@@ -50,16 +40,5 @@ export default function CookiesBanner({banner}) {
   <span style={{ fontSize: "14px" }}></span>
 </CookieConsent>
 
-
-  
-//      <div> 
-// { showBanner && ( 
- 
-//       <div className={s.banner}>
-//         <p>We use cookies to make our work better. Please accept!</p>
-//         <button onClick={acceptCookies}> Accept </button>
-//         <button onClick={declineCookies}> Decline </button>
-//     </div> )}
-//     </div>
   )
 }

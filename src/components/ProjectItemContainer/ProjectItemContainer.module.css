@@ -85,7 +85,7 @@
     transform: scale(2.2, 2.2);
 }
 
-   @media(max-width: 400px){
+   @media(max-width: 560px){
     .avatar {
         height: 360px;
         width: 360px;

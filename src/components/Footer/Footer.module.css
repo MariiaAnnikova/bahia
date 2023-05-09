@@ -1,9 +1,11 @@
+
+
 .footer {
     display: flex;
-   margin-top: 170px;
     align-items: center;
     justify-content: center;
- 
+    margin-top: auto;
+
 }
 
 .social_icons {
@@ -35,7 +37,7 @@
 
 }
 
-@media(max-width: 400px){ 
+@media(max-width: 560px){ 
 
  .social_icons {
     height: 15px;

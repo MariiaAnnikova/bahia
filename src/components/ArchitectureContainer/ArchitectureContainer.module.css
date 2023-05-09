@@ -39,7 +39,7 @@ font-size: 15px;
 top: 380px;
   }
 
-  @media(max-width: 400px){
+  @media(max-width: 560px){
     
     .architecture_grid{
         width: 360px;
