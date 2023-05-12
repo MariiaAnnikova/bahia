@@ -58,7 +58,7 @@ export const projects = [
     } ,
     {
         id:6,
-        title: ' 6 flats 6 terraces',
+        title: '',
         site:   'Milano, Italy',
         status: 'Built',
         year: 2019,
@@ -70,11 +70,11 @@ export const projects = [
     },
     {
         id:7,
-        title: 'Legnano',
+        title: '6 flats 6 terraces',
         site:   'Legnano, Italy',
         status: 'Under development',
         year: 2018,
-        program: 'Multiple Housing',
+        program: 'Multiple Housing - new construction',
         description: 'A house made of terraces and curtains. The project designs a set of private apartments in a new development operation. To achieve its identity, the building moves from its interior design to its exterior appearance. Six apartments with six large terraces come together in a play of major horizontal lines and light curtain movements.',
         avatar: "/img/Legnano1.jpeg",
         photos: ['/img/Legnano2.jpeg', '/img/Legnano3.jpeg']
@@ -82,8 +82,8 @@ export const projects = [
     }, 
     {
         id:8,
-        title: " ",
-        site:   'Lanzarote',
+        title: "Line Dot Surface Public square ",
+        site:   'Lanzarote, Spain',
         status: 'Competition',
         year: 2017,
         program: ' Public Square',
@@ -93,12 +93,12 @@ export const projects = [
        } ,
     {
         id:9,
-        title: "",
-        site:   'Lanzarote',
+        title: "Ca’Viva Music Factory",
+        site:   'Lanzarote, Spain',
         status: 'Competition',
         year: 2017,
         program: 'Music Factory ',
-        description: '',
+        description: 'Lanzarote is one of those rare and therefore precious places in the world where you don’t just pass by. To be in Lanzarote you have to go there, wish it plan it study it and only then live it. Walking around Lanzarote you hardly encounter with lies. What you see is what actually exists, no pretendings and naïve hopes, no coverings and claddings. The over-designed details and hazardous cantilevers are left for the northern regions - Nature here doesn’t allow it. The winds blow strong, the ocean marks time and the Sun is real Sun. The white walls are as white as it can get. The sky blue is as intense as it can be - loosing up the nerves and relaxing the eyes of the wanderers. The earth is earth without doubts - few elements are allowed to mark it, single rocks, solitary cactus plants, solid ancient inhabitants. Architecture on the Island is indeed not designed by man but by Nature itself. Only in such manner it can last time and elements. The CA’VIVA project transforms a banal concrete structure in a everlasting island architecture. It uses traditional materials - bricks, stones, white plaster - to create the most heat-responsive space, a patio. The core of the project is a main central patio, heart of the building it hosts shows and performances. This is formed by the coming together of four pure objects, four towers hosting on two inside levels all the provided facilities. Rehearsal rooms, recording studios, collective spaces, bar, services. The distribution is mainly horizontal and it sees at first floor a wide promenade connecting the single towers and units. This overlooks down to the lower level central patio and provides seatings for visitors and audience during shows and events. At ground floor, a generous space is dedicated to dance and rehearsals while at first floor a small administration office and collective co-working provide more silent spaces to study and work. The simplicity of the main structure -double layered bricks with external plaster finishing- is then counter parted by the and efficacious of the recording studios -independent wooden structure air gapped and acoustically isolated. The intelligence of the site, the wisdom of the island and it’s inhabitants are to be pursued in any intervention one aims to realise on this piece of land surrounded by deep waters. This is truly the the effort to realise architecture with with no architects.',
         avatar: "/img/viva4.jpg",
         photos: ['/img/viva1.jpg', '/img/viva2.jpg','/img/viva3.jpg']
        } ,  
@@ -108,20 +108,20 @@ export const projects = [
         site:   'La Bazana, Spain',
         status: 'Competition',
         year: 2017,
-        program: ' Masterplan',
-        description: '',
+        program: ' Urban and strategic masterplan',
+        description: 'Studying the original plans by de la Sota and the further expansions, we see how the village has grown respectful to the prime concept of the five main squares, with a longitudinal expansion along the southern side. The new LineScape project is the fulfilment of that design and the reassumption of de la Sota’s vision. With its linear expansion along the entire northern bank it physically keeps together the five squares and the new expansions. The LineScape project is a non-building that extends for 760 linear meters and has a 9 meter wide section, adapting to the natural topography of the hilly side. It is first of all a linear path way, an urban corridor, a slow infrastructure for daily strolls; and secondly an outline limit for future expansions, to be filled with units according to the village’s growth and needs. Over a total surface of 6’840 sqm, the LineScape project has a capacity of 4’560 buildable sqm and it is designed to offer different functions and spaces: residential units, public functions, sports facilities with natural swimming pool, kindergartens, temporary residential units, working spaces and facilities for distillery and dry rooms, related to the new herbal cultivations.  It is characterised by a simple almost elementary primer structure, with steel pillars and beams supporting a corrugated sheet with concrete slabs. In between the two fix slabs, the units are placed throughout time according to future expansions.The LineScape project may appear like a strong drift in the quiet environment of these rural settlements, yet its proportions and human scale respond gently to the topography of the site, while its facilities respond and adapt to the villages need throughout the years. The project aims to be more of a silent landscape intervention than a single architecture project.',
         avatar: "/img/Europan3.jpg",
         photos: ["/img/Europan1.jpg", "/img/Europan2.jpg", "/img/Europan4.png", "/img/Europan5.jpg", "/img/Europan6.png", "/img/Europan7.jpg"]
        
     },
     {
         id: 11,
-        title: " Falck Residential Competition",
-        site:   'Milano',
+        title: " Woodspace ",
+        site:   'Milano Sesto',
         status: 'Competition',
         year: 2017,
-        program: ' Residential Units',
-        description: 'The project Esencia Rural 2.0 brings forward (proposes) 3 simultaneous actions in order to activate La Bazana’s rich landscape. The first action is of economical and cultural nature: a bottom-up partial change of crops and cultivations practiced on the land.  Considering the important economic value of new chosen varieties, the change will bring new expertise and richness to the rural sphere of the La Bazana and will characterise the village with a strong landscape identity, just like la Pronvece region in south France.The second action once more designs the landscape and brings together all the different natural scenarios of the region. A continuous ring serves as cycle line for a slow mobility and an almost educational walk through the dry lands and lavender fields, the wet lands and aromatic fields, the dehesa woods, the Ardila riverbeds.The third and most affective action is of urban character and designs the future expansions of La Bazana Village. The Front Line project is a non-building that extends for 760 linear meters and has a 9 meter wide section, adapting to the natural topography of the hilly side. It is first of all a linear path way, an urban corridor, a slow infrastructure for daily strolls; and secondly an outline limit for future expansions, to be filled with units according to the village’s growth and needs.',
+        program: 'Housing Units - innovative technologies',
+        description: 'The design of a historic milanese building like Terragni’s Casa Rustici (1933) in Corso Sempione inspires the central distribution for a large complex of apartments to be built. The tradition of known schemes and distributions is now combined with new technologies and innovative material processes. The floors, the walls, the pillars, the ceilings are now all made of wood. From the primary structure to the details and claddings, everything is wood. The main structure is erected with laminated wood and x-lam panels. The continuous balconies and a game of timber brise-soleil expose the material’s nature of the new blocks. 107 flats never felt so warm and cosy all together.',
         avatar: "/img/Falck4.jpg",
         photos: ["/img/Falck1.jpg", "/img/Falck2.jpg", "/img/Falck3.jpg"]
        
@@ -141,10 +141,10 @@ export const projects = [
         id: 13,
         title: "The Cut",
         site:   'Venice',
-        status: 'Competition',
+        status: 'Competition _ Finalist, special mention',
         year: 2023,
         program: ' Domestic Entrance Threshold',
-        description: 'Upon a plateau of gentle steps a village arises. It welcomes all the ancient inhabitants of the high mountains valley. Just like a carpet, the base adapts to any topography and becomes part and parcel of the landscape.The project aims to valorise the local traditions and know how, adopting simple building techniques and local materials.Five pure objects stand separately and provide facilities for the community’s needs.  Between them, a game of little alleys and squares create a cluster of knowledge. Each function is separated and individual yet strongly connected to the other; like the atelier and the study hall with their facing entrances. The kitchen and the bathrooms are the only buildings with outwards facing entrances, due to their more specific functions. The collective kitchen provides a large chimney for baking, becoming now a symbol for of collective household.',
+        description: 'Erano le tre del pomeriggio quando Gauri rientrava a casa. Non aveva portato con sé il parasole e la sua chiara pelle glielo ricordava ad ogni passo. In quei giorni di tarda estate la pietra bianca rifletteva ancor di più il sole e lei non desiderava altro che raggiungere casa per dare riposo alle alla sua povera fronte. In giardino come sempre Lalita s’arrampicava sui massi calcarei, incurante del caldo, con il parasole che a volte era mongolfiera, a volte ali d’uccello, ma mai dispositivo d’ombra. “Non so proprio come faccia, scalza sui massi tutto il giorno” pensò Gauri vedendola e le gridò “vieni dentro Lalita o il sole ti cuocerà”. Ella incurante sorrise e saltò via verso altri massi da scalare. Gauri era arrivata alla parete di pietra quando sospinse la porta e questa lentamente rotò . Ogni volta che si apriva questa le ricordava i mille libri di tesori che suo padre le leggeva da bambina, e sorrideva, sempre. Al suono di quella rotazione silenziosa il piccolo Ram accorse come di consueto per vedere chi era, “Gauri!”. Il fresco della roccia fu d’improvviso ristoro e la gentile penombra della sala d’entrata di casa fu subito sollievo per la pelle arsa. Gauri posò la borsa sulla seduta, si tolse le scarpe, abbracciò il piccolo, ed insieme accesero un incenso di legno di sandalo per Shri Shiva. Inchinandosi dolcemente, bisbigliò lei tre volte, “Sat Chit Ananda Rupam, Shivo Ham Shivo Ham”. La grande statua di Shiva Nataraja, portata anni addietro dalle verdi colline del Kerala ed ora riposta nella nicchia, proteggeva coloro che uscivano dalla porta di casa e invitava coloro che entravano. E i ragazzi non dimenticavano mai di tenere un incenso acceso sull’altare, gelsomino era di Lalita, patchouli di Ram e sandalo di Gauri. Mano nella mano, Gauri aiutò il piccolo a salire i due gradini ed entrarono in casa, dove la più gentile luce del nord riempiva ora e sempre il soggiorno. ',
         avatar: "/img/TheCut1.jpg", 
         photos: ["/img/TheCut2.jpg", "/img/TheCut3.jpg", "/img/TheCut4.jpg"]
 
@@ -155,8 +155,8 @@ export const projects = [
         site:   'Milano',
         status: 'Design for a little little house, a shelf house',
         year: 2016,
-        program: ' ',
-        description: '',
+        program: ' furniture design',
+        description: 'A little house can host people and maybe a few animals. A little little house, a shelf house, can host only so many books, a plant, a little black television perhaps, a few stuffed animals, too many children toys and dozens of even smaller objects.',
         avatar: "/img/Casa_Mauble1.jpg", 
         photos: ["/img/Casa_Mauble2.jpg", "/img/Casa_Mauble3.png", "/img/Casa_Mauble4.png", "/img/Casa_Mauble5.png", "/img/Casa_Mauble6.png"]
 
@@ -174,114 +174,124 @@ export const projects = [
     } ,
     {
         id: 16,
-        title: "LA CULLA ",
+        title: "La Culla ",
         site:   'Milano',
-        status: 'Bield',
+        status: 'Build',
         year: 2021,
-        program: 'Design for a baby cradle ',
-        description: '',
+        program: 'furniture design ',
+        description: 'How would a deconstructivist or a suprematism painter design a cradle for a sweet baby? How would Kazimir Malevich or Laszlo Moholy-Nagy built a nest for their first born princess girl?',
         avatar: "/img/La_cula2.jpg", 
         photos: ["/img/la_cula1.png", "/img/La_cula3.png"]
     } ,
     {
         id: 17,
-        title: "MALAGA ",
-        site:   'Competition for Feria de Malaga',
-        status: 'Graphic Design',
+        title: "Feria de Malaga 2018 ",
+        site:   'Malagaa, Spain',
+        status: 'Competition',
         year: 2018,
-        program: '',
-        description: '',
+        program: 'Graphic Design',
+        description: 'What are the colours and shapes of great summer fiesta in Malaga?',
         avatar: "/img/Malaga.png", 
         photos: []
     },
     {
         id: 18,
         title: 'Africa, “The Architectural Review”',
-        site: 'Publication,  Ardeth',
+        site: 'magazine publication',
         status: 'Publication',
         year: 2021,
         program: '',
-        description: '',
-        avatar: "/img/Ardeth.png", 
-        photos: ["/img/Ardeth1.png", "/img/Ardeth2.png", "/img/Ardeth3.png", "/img/Ardeth4.png", "/img/Ardeth5.png"]
+        description: 'Imagine finding a scientific magazine entitled “Asia”, pretendeding to somehow tackle the topic of the architectural language of the entire continent, from Japan to Kazakhstan, from Sri Lanka to Mongolia. We would probably smile at the naive attempt, like a professor would at a first-year student’s project. Why does this not happen to us when we read the title “Africa”? Why are we comfortable with the notion of a uniform plot of land, generically similar and easily representable?',
+        avatar: "/img/Ardeth_avatar.jpeg", 
+        photos: [ "/img/Ardeth.png",  "/img/Ardeth1.png", "/img/Ardeth2.png", "/img/Ardeth3.png", "/img/Ardeth4.png", "/img/Ardeth5.png"]
     } ,
 
     {
         id: 19,
-        title: ' ATTI E RASSEGNA TECNICA',
-        site: ' Torino',
-        status: 'Publication',
+        title: '“Per un progetto di testo ‘contraddittorio’. Scrittura e narrazione nell’opera di maestri della teoria architettonica”',
+        site: ' “Atti e Rassegna Tecnica”, Torino',
+        status: 'Magazine Publication',
         year:  2022,
         program: '',
-        description: 'Per un progetto di testo “contraddittorio”. Scrittura e narrazione nell’opera di maestri della teoria architettonica',
-        avatar: "/img/ART.png", 
-        photos: ["/img/ART1.png", "/img/ART2.png", "/img/ART3.png", "/img/ART4.png", "/img/ART5.png"]
+        description: "Using linguistics as a reading key for some well known texts of the disciplinary bibliography, this paper aims at understating the construction of one type of architectural text and its narrative peculiarities when utilised with differente programmatic goals. Between these peculiarities one can note the emergence of the subjective author in an exposition usually specialistic and disciplinary. The paper brings together portions of text from some of the Italian maestri of recent architectural theory such as, Vittorio Gregotti, Aldo Rossi, Giancarlo De Carlo, to comprehend how writing may become a sharp tool for the communication of a project and its cultural legitimacy. This contribution intends to highlight how the language(Italian) of the architectural text varies when in the theoretical discourse, the description of the project is equaled by the description of the subject.",
+        avatar: "/img/Art_avatar.jpeg", 
+        photos: ["/img/ART.png",   "/img/ART1.png", "/img/ART2.png", "/img/ART3.png", "/img/ART4.png", "/img/ART5.png"]
     } ,
     
     {
         id: 20,
         title: 'Europe Archipelago',
-        site: ' ',
-        status: 'Publication',
+        site: ' Eurolab2018',
+        status: 'Call for papers',
         year:  2018,
-        program: '',
-        description: '',
+        program: 'European geopolitics',
+        description: 'A dystopian vision for the future geographies of the European continent. 2038 sees the completion of the Europe Archipelago project, where countries are enthusiastically isolated. ',
         avatar: "/img/Eurolab.png", 
         photos: []
     } , 
     {
         id: 21,
         title: 'WOOD SPRAWL',
-        site: ' Torino',
+        site: ' Milano',
         status: '',
         year:  2015,
-        program: 'Politecnico di Milano con Piercarlo Quecchia',
-        description: 'An industrial, half abandoned area in Milan’s darkest periphery is asking for an urban redevelopment: 50’000 square meters of social housing and facilities to fill what is currently seen as an urban void. Wood Sprawl undertakes the study of the peripheries along with their flaws and the monsters they left behind from the bygone 50s, the 60s and the 70s along with the lack of any care, design or any social integration. The superposition of a rational grid meant to solve all problems and flatten any diversity and challenging peculiarity. It aims to change the paradigm in suburban developments, no longer ex-novo constructions and massive buildings but rather precise surgical interventions to bring new life to the abandoned current structures. The void now becomes an urban forest, not a garden, not a park but a forest. A forest where the unexpected is welcome, where the rigid grid of the cities expansion has no value, where rational patterns stop at the borders and architecture is brought back to its primordial phase, in complete harmony with nature. A wooded area with a succession of clearings, dense patches, lakes and towers hosts small chapels, high slim bridges, floating swimming pools and metaphysical platforms. The square meters the city requires are distributed around the area: empty warehouses, deposits, occupied houses and roofless cascinas are brought back to life through rigorous study and precise interventions on the existing. All connected to the central forest through promenades that extend above the rooftops, above the yards and above the treetops. The public functions the city needs, closer to the center of the forest; the more private functions, towards the outer extremities of the footbridges. The urban scale of the periphery now becomes the first design factor for what was intended to be a series of traditional buildings',
-        avatar: "/img/WOOD_SPRAWL1.jpg", 
+        program: 'Urban Masterplan',
+        description: 'Research and theory project. Politecnico di Milano con Piercarlo Quecchia',
+        avatar: "/img/WOOD_SPRAWL1.jpg",
         photos: ["/img/WOOD_SPRAWL2.jpg", "/img/WOOD_SPRAWL3.png", "/img/WOOD_SPRAWL4.png", "/img/WOOD_SPRAWL5.png", "/img/WOOD_SPRAWL6.png"]
     }
     , {
         id: 22,
         title: 'Enterno Monumentale',
-        site: ' Il Collirio Magazine',
-        status: 'Publication',
+        site: '  “Il Collirio” Effetto Placebo',
+        status: 'Magazine Publication',
         year:  2020,
         program: '',
-        description: '',
+        description: 'What happens when your apartment becomes your only reality during a forced lockdown? Quando il mio appartamento divenne monumento perch unico ziggurat vissuto lento singolare recinto e contrasto al vento altri spazi non conosco e attendo',
         avatar: "/img/Placebo.jpeg", 
         photos: []
     } ,
     {
         id: 23,
-        title: 'JOHN RUSKIN, ARCHITECTURAL INNOVATION IN ANONYMITY',
+        title: '“Innovation in Practice in theory” AA.VV., Applied Research & Design, San Fransisco US.',
         site: '',
-        status: 'INNOVATION IN PRACTICE IN THEORY, AA.VV.',
+        status: 'Chapter In Book publication',
         year:  2022,
-        program: 'Applied Research & Design, San Francisco ',
-        description: 'Publication - book chapter.',
-        avatar: "/img/Innovation1.png", 
+        program: '',
+        description: 'If innovation is a term applied to an instrument that is set to perform a work, this short paper proposes to define a hypothetical work field and goal for architecture as a discipline. Writings of John Ruskin (1819-1900), theoretical scholar of the Victorian period, will here be used for their clear definition of architecture as a tool for an expressed purpose: the establishment of a better society and the formation of personal character through an act of education. Once clarified the objective of the work to pursue, this paper presents the characteristics of innovation in architecture when utilised as a practical instrument, through the theoretical classifications of different scholars of the 20th Century.',
+        avatar: "/img/Innovation_avatar.jpeg", 
         photos: ["/img/Innovation1.png", "/img/Innovation2.png", "/img/Innovation3.png"]
     } ,
     {
         id: 24,
         title: 'Ontologia del Vuoto. Ovvero il vuoto e la foresta',
         site: ' Milano',
-        status: 'Master Thesis Politecnico di Milano',
+        status: 'Research and theory project. Politecnico di Milano, with Stefano Boeri Tutor',
         year:  2016,
-        program: 'Tutor Stefano Boeri',
+        program: 'Urban Masterplan',
         description: 'The creation of a thick forest in the abandoned railway yard of Scalo di Porta Romana in Milano. The urban project for the perimeter design proposes a new solution for the urban capacity defined by the municipality of Milano, 150.000 sqm. Rather than filling the void, the project proposes to protect it with a built crown and a large untouched forest. This project will then be developed by Stefano Boeri Architetti with the “Fiume Verde” and the latter will eventually shape the new urban rules for all the abandoned rail yards in Milano.',
         avatar: "/img/ONTOLOGIA_3.jpg", 
         photos: ["/img/ONTOLOGIA_1B.png", "/img/ONTOLOGIA_2.jpg", "/img/ONTOLOGIA_1A.png", "/img/ONTOLOGIA_4.jpg",  "/img/ONTOLOGIA_5.jpg" , "/img/ONTOLOGIA_6.jpg" ,"/img/ONTOLOGIA_7.jpg", "/img/ONTOLOGIA_8.png", "/img/ONTOLOGIA_9.png", "/img/ONTOLOGIA_10.png", "/img/ONTOLOGIA_11.png"]
     }
     , {
     id: 25,
-    title: 'BIENNALE DI VENEZIA',
-    site: ' Venezia',
-    status: 'Turkish Pavillion participation with Politecnico di Milano',
+    title: 'Postcard from the future. Istanbul 2014-2064',
+    site: ' Biennale di Venezia, Venice',
+    status: ' Research and theory project. Politecnico di Milano and Turkish Pavillion',
     year:  2014,
-    program: '',
-    description: 'Postcard images coming from a future Istanbul. How will the city deal with its intensive growth and density in 50 years time?',
+    program: ' Urban visions',
+    description: 'How will the city deal with its intensive growth and density in 50 years time? Postcards come from the future show us images of an Istanbul which is not yet, but possibly soon. ',
     avatar: "/img/POSTCARDS1.JPG", 
     photos: [ "/img/POSTCARDS2.JPG", "/img/POSTCARDS3.JPG", "/img/POSTCARDS3.JPG", "/img/POSTCARDS4.JPG",  "/img/POSTCARDS5.jpg" , "/img/POSTCARDS6.JPG"]
+ } , {
+    id: 26,
+    title: 'Esencia Rural',
+    site: ' Zamora, Spain',
+    status: 'Master Thesis, Universidad Europea Madrid',
+    year:  2014,
+    program: '',
+    description: 'The project investigates the strategies for re-population of abandoned rural villages in the Spanish country and proposes an intervention that is both urbanistic and business oriented. The design of a production line that is first economically sustainable, via new plantations methods, becomes an architectural project for small capsule buildings that interact playfully with the traditional Spanish Pueblos de colonizacion.',
+    avatar: "/img/Esencia_rural_avatar.png", 
+    photos: [ "/img/ESENCIA_RURAL_1.jpg", "/img/ESENCIA_RURAL_2.jpg", "/img/ESENCIA_RURAL_3.png", "/img/ESENCIA_RURAL_4.jpg",  "/img/ESENCIA_RURAL_4B.png" , "/img/ESENCIA_RURAL_5.jpg", "/img/ESENCIA_RURAL_6.JPG"]
  }
 ]

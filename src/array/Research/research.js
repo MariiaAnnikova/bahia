@@ -53,8 +53,8 @@ export const research = [
         year: 2021,
         program: '',
         description: '',
-        avatar: "/img/Ardeth.png", 
-        photos: ["/img/Ardeth1.png", "/img/Ardeth2.png", "/img/Ardeth3.png", "/img/Ardeth4.png", "/img/Ardeth5.png"]
+        avatar: "/img/Ardeth_avatar.jpeg", 
+        photos: ["/img/Ardeth.png", "/img/Ardeth1.png", "/img/Ardeth2.png", "/img/Ardeth3.png", "/img/Ardeth4.png", "/img/Ardeth5.png"]
     } ,
 
     {

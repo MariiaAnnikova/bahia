@@ -4,14 +4,16 @@ import s from './ResearchContainer.module.css'
 export default function ResearchContainer({id, avatar, site}) {
   return (
   
-    <div className={s.second_page_container}> 
-    <Link to= { `${id}` }>
+    <div className={s.research_container}> 
+   
     
-      <div className={s.grid}>
-      <img alt='Architectura' src={avatar} className={s.picture}/>
+      <div className={s.res_img_container}>
+      <Link to= { `${id}` }>
+      <img alt='Architectura' src={avatar}/>
       <p>{site}</p>
-      </div>
       </Link>
+      </div>
+     
     
     </div>
   )

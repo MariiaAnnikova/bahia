@@ -1,26 +1,25 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import s from './SecondPageContainer.module.css'
+import Masonry, { ResponsiveMasonry} from 'react-responsive-masonry';
 
 export default function SecondPageContainer({ id, avatar, site}) {
 
-  console.log(avatar);
-  
   return (
   
-       
-      
-    <div className={s.second_page_container}> 
-    <Link to= { `${id}` }>
+     <div className={s.second_page_container}> 
+     
+  
     
-      <div className={s.grid}>
-      <img alt='Architectura' src={avatar} className={s.picture}/>
+      <div className={s.image_container}>
+      <Link to= { `${id}` }>
+      <img alt='Architectura' src={avatar}/>
       <p>{site}</p>
-      </div>
       </Link>
-    
+      </div>
+      
+      
     </div>
     
   )
 }
-  

@@ -10,7 +10,7 @@ export default function Res() {
          
   {
     res
-    .sort(() => 0.5 - Math.random()).slice(0, 12)
+    .sort(() => 0.5 - Math.random()).slice(0, 13)
     .map((el) => <ResearchContainer {...el} key={el.id} />)
   }
 </div> 

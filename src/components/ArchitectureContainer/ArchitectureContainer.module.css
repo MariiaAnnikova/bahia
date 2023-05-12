@@ -1,43 +1,40 @@
-.architecture_grid{
-  width: 400px;
-  height: 400px;
-  margin:  70px 40px 10px 40px;
-  position: relative;
+.architecture_container img{
+  max-width: 95%;
  }
-.arch_avatar {
-  
-    width: 450px;
-    height:450px;
-    object-fit: contain;
-    transition: all 0.5s ease;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
 
-.arch_avatar:hover {
+ .arch_img_container{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+ }
+.arch_img_container img{
+  object-fit: contain;
+    transition: all 0.5s ease;
+  }
+/* 
+.arch_img_container img:hover {
     transform: scale(1.1, 1.1);
 
-  }
+  } */
 
-  .architecture_grid a {
+  .arch_img_container a {
     text-decoration: none;
     color: black;
   }
 
-  .architecture_grid p {
+  .arch_img_container p {
     opacity: 0;
   }
 
-  .architecture_grid:hover p{
+  /* .arch_img_container:hover p{
     opacity: 1;
     transition: opacity 1s; 
     position: absolute;
     font-family: 'Montserrat';
 font-weight:  600;
 font-size: 15px;
-top: 380px;
-  }
+
+  } */
 
   @media(max-width: 560px){
     

@@ -10,7 +10,7 @@ export const res = [
         description: '',
         avatar: "/img/Casa_Mauble1.jpg", 
         photos: ["/img/Casa_Mauble2.jpg", "/img/Casa_Mauble3.png", "/img/Casa_Mauble4.png", "/img/Casa_Mauble5.png", "/img/Casa_Mauble6.png"],
-        files: ''
+       
     },
     {
         id: 2,
@@ -22,7 +22,7 @@ export const res = [
         description: 'In 1928 the german architect and philosopher Herman Sorgel proposed his project for an isolated and lowered mediterranean sea, named Atlantropa. His vision was to close the Strait of Gibraltar with a portentous hydroelectric dam; lock the Suez Canal to the Red Sea; and cut off the Black Sea through the Dardanelles.It was his belief that this international and collective endeavour would bring peace among all the participants once the appearance of new agricultural land came to fruition due to the lowering of the sea levels. Being the son of a hydroelectric engineer, Sorgel thought of Atlantropa as something more than a mere utopia: he studied the construction details and figures of the epic operation for 20 years, and never ceased to strive for its completion. Nearly a century after this meta-continental project was conceptualised, we can attempt to adopt his solution to question the geopolitical borders of contemporary Europe. Focusing on the Strait of Gibraltar, the so called “first world” is separated from the “third world” by a narrow strip of water: a rupture that is not only physical but overall cultural and political.This visual exercise aims at using Sorgel’s historical power dam at the entrance of the Mediterranean to re-question the idea of national and continental frontier between Europe and northern Africa. Could a geophysical border become an architecture to live, a threshold to dwell? Could a power dam become a buffer zone for cultural and social mixitè?From Sorgel’s Atlantropa, to Le Corbusier’s Plan Obus; from Constant’s New Babylon to Kenzo Tange’s Tokyo Bay, the images propose a large infrastructure, prompted by XX century’s utopias and mega projects. A monument that is continuous in its political value and cultural bridging function',
         avatar: "/img/Eurafrica1.jpg", 
         photos: ["/img/Eurafrica2.jpg", "/img/Eurafrica3.jpg"],
-        files: ''
+       
     } ,
     {
         id: 3,
@@ -34,7 +34,7 @@ export const res = [
         description: '',
         avatar: "/img/La_cula2.jpg", 
         photos: ["/img/la_cula1.png", "/img/La_cula3.png"],
-        files: ''
+        
     } ,
     {
         id: 4,
@@ -46,7 +46,7 @@ export const res = [
         description: '',
         avatar: "/img/Malaga.png", 
         photos: [],
-        files: ''
+       
     },
     {
         id: 5,
@@ -56,9 +56,10 @@ export const res = [
         year: 2021,
         program: '',
         description: '',
-        avatar: "/img/Ardeth.png", 
-        photos: ["/img/Ardeth1.png", "/img/Ardeth2.png", "/img/Ardeth3.png", "/img/Ardeth4.png", "/img/Ardeth5.png"],
-        files: '/File/ardeth-2770.pdf'
+        avatar: "/img/Ardeth_avatar.jpeg", 
+        photos: [ "/img/Ardeth.png","/img/Ardeth1.png", "/img/Ardeth2.png", "/img/Ardeth3.png", "/img/Ardeth4.png", "/img/Ardeth5.png"],
+        files: '/File/ardeth-2770.pdf',
+        style: 'yes'
     } ,
 
     {
@@ -69,9 +70,10 @@ export const res = [
         year:  2022,
         program: '',
         description: 'Per un progetto di testo “contraddittorio”. Scrittura e narrazione nell’opera di maestri della teoria architettonica',
-        avatar: "/img/ART.png", 
-        photos: ["/img/ART1.png", "/img/ART2.png", "/img/ART3.png", "/img/ART4.png", "/img/ART5.png"],
-        files: '/File/ART_cartocci.pdf'
+        avatar: "/img/Art_avatar.jpeg", 
+        photos: ["/img/ART.png","/img/ART1.png", "/img/ART2.png", "/img/ART3.png", "/img/ART4.png", "/img/ART5.png"],
+        files: '/File/ART_cartocci.pdf',
+        style: 'yes'
     } ,
     
     {
@@ -84,7 +86,8 @@ export const res = [
         description: '',
         avatar: "/img/Eurolab.png", 
         photos: [],
-        files: '/File/eurolub.pdf'
+        files: '/File/eurolub.pdf',
+        style: 'yes'
     } , 
     {
         id: 8,
@@ -96,7 +99,7 @@ export const res = [
         description: 'An industrial, half abandoned area in Milan’s darkest periphery is asking for an urban redevelopment: 50’000 square meters of social housing and facilities to fill what is currently seen as an urban void. Wood Sprawl undertakes the study of the peripheries along with their flaws and the monsters they left behind from the bygone 50s, the 60s and the 70s along with the lack of any care, design or any social integration. The superposition of a rational grid meant to solve all problems and flatten any diversity and challenging peculiarity. It aims to change the paradigm in suburban developments, no longer ex-novo constructions and massive buildings but rather precise surgical interventions to bring new life to the abandoned current structures. The void now becomes an urban forest, not a garden, not a park but a forest. A forest where the unexpected is welcome, where the rigid grid of the cities expansion has no value, where rational patterns stop at the borders and architecture is brought back to its primordial phase, in complete harmony with nature. A wooded area with a succession of clearings, dense patches, lakes and towers hosts small chapels, high slim bridges, floating swimming pools and metaphysical platforms. The square meters the city requires are distributed around the area: empty warehouses, deposits, occupied houses and roofless cascinas are brought back to life through rigorous study and precise interventions on the existing. All connected to the central forest through promenades that extend above the rooftops, above the yards and above the treetops. The public functions the city needs, closer to the center of the forest; the more private functions, towards the outer extremities of the footbridges. The urban scale of the periphery now becomes the first design factor for what was intended to be a series of traditional buildings',
         avatar: "/img/WOOD_SPRAWL1.jpg", 
         photos: ["/img/WOOD_SPRAWL2.jpg", "/img/WOOD_SPRAWL3.png", "/img/WOOD_SPRAWL4.png", "/img/WOOD_SPRAWL5.png", "/img/WOOD_SPRAWL6.png"],
-        files: ''
+       
     }
     , {
         id: 9,
@@ -108,7 +111,7 @@ export const res = [
         description: '',
         avatar: "/img/Placebo.jpeg", 
         photos: [],
-        files: ''
+        
     } ,
     {
         id: 10,
@@ -118,7 +121,7 @@ export const res = [
         year:  2022,
         program: 'Applied Research & Design, San Francisco ',
         description: 'Publication - book chapter AA.VV',
-        avatar: "/img/Innovation1.png", 
+        avatar: "/img/Innovation_avatar.jpeg", 
         photos: ["/img/Innovation1.png", "/img/Innovation2.png", "/img/Innovation3.png"]
     } ,
     {
@@ -131,7 +134,7 @@ export const res = [
         description: 'The creation of a thick forest in the abandoned railway yard of Scalo di Porta Romana in Milano. The urban project for the perimeter design proposes a new solution for the urban capacity defined by the municipality of Milano, 150.000 sqm. Rather than filling the void, the project proposes to protect it with a built crown and a large untouched forest. This project will then be developed by Stefano Boeri Architetti with the “Fiume Verde” and the latter will eventually shape the new urban rules for all the abandoned rail yards in Milano.',
         avatar: "/img/ONTOLOGIA_4.jpg", 
         photos: ["/img/ONTOLOGIA_1B.png", "/img/ONTOLOGIA_2.jpg", "/img/ONTOLOGIA_3.jpg", "/img/ONTOLOGIA_1A.png",  "/img/ONTOLOGIA_5.jpg" , "/img/ONTOLOGIA_6.jpg" ,"/img/ONTOLOGIA_7.jpg", "/img/ONTOLOGIA_8.png", "/img/ONTOLOGIA_9.png", "/img/ONTOLOGIA_10.png", "/img/ONTOLOGIA_11.png"],
-        files: ''
+       
     }
     , {
     id: 12,
@@ -144,5 +147,15 @@ export const res = [
     avatar: "/img/POSTCARDS1.JPG", 
     photos: [ "/img/POSTCARDS2.JPG", "/img/POSTCARDS3.JPG", "/img/POSTCARDS3.JPG", "/img/POSTCARDS4.JPG",  "/img/POSTCARDS5.jpg" , "/img/POSTCARDS6.JPG"],
     files: '/File/ART_cartocci.pdf'
-}
+}  , {
+    id: 13,
+    title: 'Esencia Rural',
+    site: ' Zamora, Spain',
+    status: 'Master Thesis, Universidad Europea Madrid',
+    year:  2014,
+    program: '',
+    description: 'The project investigates the strategies for re-population of abandoned rural villages in the Spanish country and proposes an intervention that is both urbanistic and business oriented. The design of a production line that is first economically sustainable, via new plantations methods, becomes an architectural project for small capsule buildings that interact playfully with the traditional Spanish Pueblos de colonizacion.',
+    avatar: "/img/Esencia_rural_avatar.png", 
+    photos: [ "/img/ESENCIA_RURAL_1.jpg", "/img/ESENCIA_RURAL_2.jpg", "/img/ESENCIA_RURAL_3.png", "/img/ESENCIA_RURAL_4.jpg",  "/img/ESENCIA_RURAL_4B.png" , "/img/ESENCIA_RURAL_5.jpg", "/img/ESENCIA_RURAL_6.JPG"]
+ }
 ]

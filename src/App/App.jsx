@@ -9,6 +9,7 @@ import AboutUs from "../components/AboutUs/AboutUs";
 import ArchitectureItem from "../components/ArchitectureItem/ArchitectureItem";
 import Res from "../components/Res/Res";
 import ResearchItem from "../components/ResearchItem/ResearchItem";
+import CookiesPolicy from "../components/CookiesPolicy/CookiesPolicy";
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
        <Route path="research" element={<Res />} />
        <Route path="research/:id" element={<ResearchItem />} />
        <Route path='about_us' element={ <AboutUs /> } />
+       <Route path="privacy" element={ <CookiesPolicy /> } />
        </Route>
       
     </Routes>

@@ -2,22 +2,13 @@ import React from 'react'
 import s from './ResearchItemContainer.module.css'
 import { res } from '../../array/Res/res'
 
-export default function ({title, site, status, year, program, description, avatar, photos, item, files, file}) {
+export default function ({title, site, status, year, program, description, avatar, photos, item, files, el}) {
   
-//     const fileLinks = res.map((item) => (
-//         <p>
-//           {Array.isArray(item.files) && item.files.length > 0 ? (
-//             item.files.map((file) => (
-//               <a href={file} download>
-//                 {file}
-//               </a>
-//             ))
-//           ) : (
-//             <span>No files available</span>
-//           )}
-//         </p>
-//       ));
-// console.log(fileLinks);
+const link =  files ? (
+  <p> <a href={files} download> Download </a> </p>
+) : null
+
+
     return (
     <div>
         <div className={s.top}>
@@ -29,7 +20,10 @@ export default function ({title, site, status, year, program, description, avata
   <h4>{year}</h4>
   <h5>{program}</h5>
   <h4>{description}</h4>
-  <p> <a href={files} download> Download </a> </p>
+
+ 
+
+  <p> {link } </p>
   
     </div>
   <div className={s.res_item_right}>

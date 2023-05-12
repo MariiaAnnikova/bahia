@@ -27,22 +27,29 @@
   }
 
   .arch_item_left h2{
-    font-size: 30px;
+    font-size: 15px;
     font-weight: 500;
     font-family: 'Montserrat';
   }
   .arch_item_left h3{
-    font-size: 25px;
+    font-size: 15px;
     font-weight: 400;
     font-family: 'Montserrat';
   }
   .arch_item_left h4{
-    font-size: 24px;
+    font-size: 15px;
     font-weight: 600;
     font-family: 'Montserrat';
   }
   .arch_item_left h5{
-    font-size: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Montserrat';
+  }
+  .arch_item_left h4:nth-child(6){
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 25px;
     font-weight: 400;
     font-family: 'Montserrat';
   }
@@ -76,13 +83,3 @@
     0% { opacity: 0; }
     100% { opacity: 1; }
   }
-
-  
-
- .arch_item_left h4:nth-child(6) {
-     margin-top: 20px;
-        font-size: 25px;
-        line-height: 30px;
-        font-weight: 400;
-        font-family: 'Montserrat';
- }
