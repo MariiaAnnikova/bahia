@@ -34,3 +34,25 @@ font-size: 15px;
 
     opacity: 0;
     } */
+
+    @media(max-width: 560px){
+    
+        .research_container{
+            max-width: 95%;
+            margin-left: 15px;
+          }
+    
+    .res_img_container a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        
+    }
+    .res_img_container p {
+        opacity: 1;
+      z-index: 1;
+      font-family: 'Montserrat';
+      font-weight:  600;
+      font-size: 15px;
+       
+    }
+    }

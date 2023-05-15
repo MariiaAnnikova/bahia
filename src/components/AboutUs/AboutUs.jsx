@@ -50,9 +50,9 @@ export default function AboutUs() {
     </div>
   
   <div className={s.info_icons_phone}>
-    <PhoneOutlined/> 
-       <p className={s.ph_buddha}>Arch. PhD. Matheus Cartocci: + 39 3394530633. </p>
-       <p className={s.ph_gloria}>Arch. Gloria Cota Visedo: + 39 3404027427</p>
+    <PhoneOutlined className={s.info_icons}/> 
+       <p className={s.ph_buddha}>Arch. PhD. Matheus Cartocci: +39 3394530633. </p>
+       <p className={s.ph_gloria}>Arch. Gloria Cota Visedo: +39 3404027427</p>
   </div>
   
   <p><MailOutlined  className={s.info_icons}/> info@atelierbahia.com</p>

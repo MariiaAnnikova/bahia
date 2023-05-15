@@ -38,48 +38,37 @@ font-size: 15px;
 
   @media(max-width: 560px){
     
-    .architecture_grid{
-        width: 360px;
-        height: 360px;
-        margin:  30px 10px 0px 10px;
-        position: relative;
+    .architecture_container {
+      max-width: 95%;
+      margin-left: 15px;
       }
 
-      .arch_avatar {
-        width: 360px;
-        height: 360px;
+      /* .arch_avatar {
+      
         object-fit: contain;
         transition: all 0.5s ease;
         position: absolute;
         cursor: pointer;
-}   
+}    */
 
-.arch_avatar:hover {
+/* .arch_avatar:hover {
     transform: scale(1, 1);
-}
+} */
 
 .architecture_grid a {
     text-decoration: none;
     color: rgb(0, 0, 0);
     
 }
-.architecture_grid p {
-    opacity:1;
-    position: absolute;
-  top: 10px;
-  left: 0;
-  z-index: 1;
+.arch_img_container p{
    
-}
-.architecture_grid:hover p{
-    position: absolute;
     font-family: 'Montserrat';
 font-weight:  600;
 font-size: 15px;
-top: 380px;
+top: 0px;
     opacity: 1;
-    transition: opacity 1s; 
+    transition: none;
   z-index: 1;
  
-}
+} 
 }

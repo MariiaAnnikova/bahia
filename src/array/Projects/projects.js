@@ -54,7 +54,7 @@ export const projects = [
         program: 'private house - renovation',
         description: 'A tiny addition, a large opening. In the smallest of hill villages in the italian appenino, where only six people reside permanently, the intervention sees the addition of a newly built structure to an existing stone house. The addition of a large kitchen changes completely the distribution of internal spaces and brings into the house an immersive view of the surrounding hills and woods.',
         avatar:  "/img/Duilio3.jpg", 
-        photos: ["/img/Duilio3.jpg", "/img/Duilio1.jpg","/img/Duilio2.jpg", "/img/Duilio4.jpg",  "/img/Duilio5.jpg", "/img/Duilio6.jpg", "/img/Duilio7.jpg", "/img/Duilio8.jpg", "/img/Duilio9.jpg", "/img/Duilio10.jpg"],
+        photos: [ "/img/Duilio1.jpg","/img/Duilio2.jpg", "/img/Duilio4.jpg",  "/img/Duilio5.jpg", "/img/Duilio6.jpg", "/img/Duilio7.jpg", "/img/Duilio8.jpg", "/img/Duilio9.jpg", "/img/Duilio10.jpg"],
     } ,
     {
         id:6,
@@ -203,7 +203,7 @@ export const projects = [
         program: '',
         description: 'Imagine finding a scientific magazine entitled “Asia”, pretendeding to somehow tackle the topic of the architectural language of the entire continent, from Japan to Kazakhstan, from Sri Lanka to Mongolia. We would probably smile at the naive attempt, like a professor would at a first-year student’s project. Why does this not happen to us when we read the title “Africa”? Why are we comfortable with the notion of a uniform plot of land, generically similar and easily representable?',
         avatar: "/img/Ardeth_avatar.jpeg", 
-        photos: [ "/img/Ardeth.png",  "/img/Ardeth1.png", "/img/Ardeth2.png", "/img/Ardeth3.png", "/img/Ardeth4.png", "/img/Ardeth5.png"]
+        photos: [ "/img/Ardeth.png",  "/img/Ardeth1.png", "/img/ardeth2.jpeg", "/img/Ardeth3.png", "/img/Ardeth4.png", "/img/Ardeth5.jpg"]
     } ,
 
     {

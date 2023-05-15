@@ -47,10 +47,10 @@
     line-height: 30px;
     padding: 10px;
     text-align: justify;
-    border:1 px solid black;
+   
 }
 .contact_block{
-    margin: 50px 150px 50px 150px;
+    margin: 50px 150px 150px 100px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -59,6 +59,7 @@
     font-weight:  400;
     font-size: 20px;
     line-height: 30px;
+   
     
 }
 .info_icons{
@@ -81,6 +82,110 @@ position: relative;
 
 .us_google_map{
     position: absolute;
-    left: 1000px;
+    left: 1050px;
  top: -60px;
+ 
+ 
+}
+
+@media(max-width: 560px){
+
+    .us_block {
+    
+        align-items: center;
+        justify-content: center;
+       }
+       .photo_us {
+         
+           display: flex;
+           align-items: center;
+           justify-content: center;
+       }
+       .photo_us img {
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           height: 480px;
+           width: 500px;
+           object-fit: contain;
+           transition: none;
+       
+       }
+       
+       /* .photo_us:hover{
+           transform: scale(1.1, 1.1);
+       } */
+       .us_info {
+        margin: 0px 0px 0px 10px;
+        height: 350px;
+        width: 530px;
+    
+       }
+       .us_up {
+           font-family: 'Montserrat';
+           font-weight:  500;
+           font-size: 15px;
+           padding: 0px;
+           line-height: 30px;
+           text-align: justify;
+          
+       
+       }
+       
+       .us_down{
+        display: none;
+       }
+       .contact_block{
+        margin: 0px 0px 0px 10px;
+           width: 530px;
+         
+           display: flex;
+           flex-direction: column;
+           justify-content: space-between;
+           font-family: 'Montserrat';
+           font-weight:  400;
+           font-size: 16px;
+           line-height: 20px;
+           
+       }
+       .info_icons{
+        margin-right: 10px;
+        }
+
+       .info_icons_phone{  
+        display: flex;
+        gap:30px;
+        font-family: 'Montserrat';
+        font-weight:  400;
+        font-size: 16px;
+        line-height: 30px;
+       }
+       
+       .us_map{
+        position: relative;
+       }
+       .map{
+        height: 100px;
+        width: 100px;
+        position: absolute;
+           left: 1000px;
+        top: 60px;
+        margin-left: 50px;
+       }
+
+       .us_map{
+
+        position: relative;
+        }
+        
+        .us_google_map{
+            position: absolute;
+            left: -600px;
+         top: -60px;
+         
+         
+        }
+      
+
+
 }

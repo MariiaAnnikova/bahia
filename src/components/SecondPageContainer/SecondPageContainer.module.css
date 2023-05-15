@@ -37,51 +37,18 @@ font-size: 15px;
 @media(max-width: 560px){
     
     .second_page_container{
-        width: 360px;
-        height: 360px;
-        margin:  30px 10px 0px 10px;
-        position: relative;
+        max-width: 95%;
+        margin-left: 15px;
       }
-
-      .picture {
-        width: 360px;
-        height: 360px;
-        object-fit: contain;
-        transition: all 0.5s ease;
-        position: absolute;
-        cursor: pointer;
-}   
-
-.picture:hover {
-    transform: scale(1, 1);
-}
 
 .second_page_container a {
     text-decoration: none;
     color: rgb(0, 0, 0);
     
 }
-.grid p {
+.image_container p {
     opacity: 1;
-    position: absolute;
-  top: 10px;
-  left: 0;
   z-index: 1;
    
 }
-.grid:hover p{
-    position: absolute;
-    font-family: 'Montserrat';
-font-weight:  600;
-font-size: 15px;
-top: 380px;
-    opacity: 1;
-    transition: opacity 1s; 
-  z-index: 1;
- 
-}
-
-
-
-
 }
