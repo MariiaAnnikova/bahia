@@ -19,7 +19,7 @@ const link =  files ? (
   <h3>{status}</h3>
   <h4>{year}</h4>
   <h5>{program}</h5>
-  <h4>{description}</h4>
+  <h4 className={s.descr}>{description}</h4>
 
  
 

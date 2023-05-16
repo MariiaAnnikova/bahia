@@ -38,8 +38,9 @@
 
      @media(max-width: 560px){
         .main {
+            min-height: calc(100vh - 270px);
             display: flex;
-            padding-top: 150px;
+            padding-top: 50px;
             align-items: center;
             justify-content: center;
          

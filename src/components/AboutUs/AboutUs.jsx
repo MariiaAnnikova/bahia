@@ -4,7 +4,7 @@ import s from './AboutUs.module.css'
 import { EnvironmentOutlined } from '@ant-design/icons'
 import { PhoneOutlined } from '@ant-design/icons'
 import { MailOutlined} from '@ant-design/icons'
-
+import { InstagramOutlined } from '@ant-design/icons'
 
 export default function AboutUs() {
   
@@ -54,8 +54,8 @@ export default function AboutUs() {
        <p className={s.ph_buddha}>Arch. PhD. Matheus Cartocci: +39 3394530633. </p>
        <p className={s.ph_gloria}>Arch. Gloria Cota Visedo: +39 3404027427</p>
   </div>
-  
-  <p><MailOutlined  className={s.info_icons}/> info@atelierbahia.com</p>
+  <p><InstagramOutlined className={s.info_icons}/>  <a href='https://www.instagram.com/atelier.bahia/'> https://www.instagram.com/atelier.bahia/</a></p>
+  <p><MailOutlined  className={s.info_icons}/> <a href="mailto:info@atelierbahia.com">info@atelierbahia.com</a></p>
 
     
      </div> 

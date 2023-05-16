@@ -50,6 +50,7 @@
    
 }
 .contact_block{
+    text-decoration: none;
     margin: 50px 150px 150px 100px;
     display: flex;
     flex-direction: column;
@@ -62,17 +63,33 @@
    
     
 }
+
+.contact_block a{
+text-decoration: none;
+color: black;
+}
 .info_icons{
+    text-decoration: none;
     margin-right:30px;
 }
+
+.info_icons a{
+    text-decoration: none;
+} 
+
 .info_icons_phone{
-   
+
  display: flex;
- gap:30px;
+ flex-direction: row;
+
  font-family: 'Montserrat';
  font-weight:  400;
  font-size: 20px;
- line-height: 30px;
+
+}
+
+.ph_gloria{
+    margin-left: 60px;
 }
 
 .us_map{
@@ -94,6 +111,7 @@ position: relative;
     
         align-items: center;
         justify-content: center;
+        margin-bottom: 50px;
        }
        .photo_us {
          
@@ -159,6 +177,7 @@ position: relative;
         font-weight:  400;
         font-size: 16px;
         line-height: 30px;
+       
        }
        
        .us_map{

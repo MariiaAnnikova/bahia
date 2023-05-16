@@ -48,6 +48,7 @@
   }
   .arch_item_left h4:nth-child(6){
     margin-top: 10px;
+    margin-right: 50px;
     font-size: 12px;
     line-height: 25px;
     font-weight: 400;
@@ -77,6 +78,7 @@
 }
 .arr_photo:hover {
     transform: scale(2, 2);
+    z-index: 1;
 }
 
 @keyframes fadeIn {
@@ -95,30 +97,30 @@
  
 
 }
-.project_item_left h1{
+.arch_item_left h1{
   font-size: 20px;
   font-weight: 900;
   font-family: 'Montserrat';
 
 }
-.project_item_left h2{
+.arch_item_left h2{
   font-size: 18px;
   font-weight: 500;
   font-family: 'Montserrat';
 }
 
-.project_item_left h3{
+.arch_item_left h3{
   font-size: 18px;
     font-weight: 400;
     font-family: 'Montserrat';
 }
 
-.project_item_left h4{
+.arch_item_left h4{
   font-size: 18px;
   font-weight: 500;
   font-family: 'Montserrat';
 }
-.project_item_left h5{
+.arch_item_left h5{
   font-size: 15px;
   font-weight: 400;
   font-family: 'Montserrat';
@@ -139,7 +141,7 @@ max-height: 400px;
   display: block;
   transform: scale(1, 1);
 }
-.project_item_left{
+.arch_item_left{
  justify-content: center;
  display: flex;
  justify-items: center;

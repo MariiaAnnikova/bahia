@@ -40,13 +40,16 @@
 @media(max-width: 560px){ 
 
  .social_icons {
+
     height: 15px;
     width: 200px;
     cursor: pointer;
-    margin-left: 40px;
+    margin-left: 100px;
     margin-top: 0px;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
     gap:50px;
     font-size: 15px;
    
@@ -56,13 +59,21 @@
     height: 30px;
     width: 399px;
     cursor: pointer;
-    margin-left: 0px; 
+    margin-left: 10px; 
     flex-direction: row;
     font-size: 10px;
     margin-top: 10px;
+    display: flex;
+        align-items: center;
+        justify-content: center;
 }  
-.footer{
-    margin-top: 300px;
-    margin-left: 100px;
-} 
+
+    .footer {
+   
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: auto;
+    
+    }
 }
