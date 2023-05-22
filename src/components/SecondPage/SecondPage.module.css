@@ -8,9 +8,14 @@ margin-left: 20px;
  }
   
 
-@media(max-width: 560px){
- .pic_array{
-columns: 1;
-}
+@media(max-width: 400px){
+ 
+.pic_array{
 
+  max-width: 399px;
+  margin-top: 0px;
+  margin-left: 0px;
+     columns:1;
+     margin-bottom: 50px;
+}
 }

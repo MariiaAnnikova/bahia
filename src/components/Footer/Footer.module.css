@@ -5,7 +5,6 @@
     align-items: center;
     justify-content: center;
     margin-top: auto;
-
 }
 
 .social_icons {
@@ -37,7 +36,7 @@
 
 }
 
-@media(max-width: 560px){ 
+@media(max-width: 400px){ 
 
  .social_icons {
 
@@ -45,7 +44,7 @@
     width: 200px;
     cursor: pointer;
     margin-left: 100px;
-    margin-top: 0px;
+    margin-top: auto;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -69,7 +68,8 @@
 }  
 
     .footer {
-   
+ 
+   margin-left: 30px;
         display: flex;
         align-items: center;
         justify-content: center;

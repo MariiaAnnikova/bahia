@@ -26,9 +26,11 @@ console.log(photos);
   
   </div>
   </div> 
-  <div className={s.arr_project_photo}>
+  <div className={s.array_project_photo}>
  <p>
-  { photos.map(photoUrl => <img src={photoUrl} alt='t' className={s.arr_photo}/> )}
+  { photos
+  //  .sort(() => 0.5 - Math.random()).slice(0, 26)
+  .map(photoUrl => <img src={photoUrl} alt='t' className={s.arr_photo}/> )}
 </p>
 </div>
 </div> 

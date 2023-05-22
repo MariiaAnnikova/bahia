@@ -36,14 +36,14 @@ margin-top: 20px;
     cursor: pointer;
 }
 
-@media(max-width: 560px){
+@media(max-width: 400px){
    .icon_plus{
     display: flex;
 font-family: 'Montserrat';
 font-weight:  400;
 font-size: 50px;
 margin-top: 20px;
-margin-right: -100px;
+margin-right: 0px;
         }
 .nav_menu.active {
             transform: translateY(0%);
@@ -56,11 +56,11 @@ margin-right: -100px;
       font-weight:  400;
       font-size: 15px;
       margin-top: 50px;
-      margin-left: 240px;
+      margin-left: 160px;
      }
          
         .nav_logo img {
-            margin: 20px 0px 0px 20px;
+            margin: 20px 0px 0px 30px;
             height: 73px;
             width: 57px;
           

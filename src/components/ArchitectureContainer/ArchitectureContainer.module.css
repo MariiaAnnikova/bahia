@@ -9,7 +9,7 @@
  }
 .arch_img_container img{
   object-fit: contain;
-    transition: all 0.5s ease;
+  
   }
 /* 
 .arch_img_container img:hover {
@@ -24,19 +24,23 @@
 
   .arch_img_container p {
     opacity: 0;
-  }
-
-  /* .arch_img_container:hover p{
-    opacity: 1;
-    transition: opacity 1s; 
     position: absolute;
     font-family: 'Montserrat';
 font-weight:  600;
 font-size: 15px;
+  opacity: 0;
+    margin-top: 8px;
+    margin-left: 8px;
+  }
 
-  } */
+  .arch_img_container:hover p{
+    opacity: 1;
+    z-index: 1;
+    
 
-  @media(max-width: 560px){
+  }
+
+  @media(max-width: 400px){
     
     .architecture_container {
       max-width: 95%;

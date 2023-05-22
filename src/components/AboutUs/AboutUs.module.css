@@ -33,7 +33,7 @@
     font-weight:  400;
     font-size: 20px;
     padding: 10px;
-    line-height: 30px;
+    line-height: 25px;
     text-align: justify;
    
 
@@ -44,7 +44,7 @@
     font-weight:  200;
     font-size: 20px;
     padding: 10px;
-    line-height: 30px;
+    line-height: 25px;
     padding: 10px;
     text-align: justify;
    
@@ -59,7 +59,7 @@
     font-family: 'Montserrat';
     font-weight:  400;
     font-size: 20px;
-    line-height: 30px;
+    line-height: 25px;
    
     
 }
@@ -99,13 +99,13 @@ position: relative;
 
 .us_google_map{
     position: absolute;
-    left: 1050px;
- top: -60px;
+    left: 800px;
+ top: -180px;
  
  
 }
 
-@media(max-width: 560px){
+@media(max-width: 400px){
 
     .us_block {
     
@@ -144,7 +144,7 @@ position: relative;
            font-weight:  500;
            font-size: 15px;
            padding: 0px;
-           line-height: 30px;
+           line-height: 25px;
            text-align: justify;
           
        

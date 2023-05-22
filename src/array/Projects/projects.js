@@ -14,7 +14,7 @@ export const projects = [
     {
         id:2,
         title: 'Barn House Renovation',
-        site: 'Celio, Roccheta Ligure, Italy',
+        site: 'Roccheta Ligure, Italy',
         status: 'Built',
         year: 2021,
         program: 'Private House - renovation',
@@ -32,12 +32,12 @@ export const projects = [
         program: 'Private House - renovation',
         description: 'An existing house, a new distribution and a grand new terrazzo. The project redesigns the basic functions and distribution for an Ayurvedic doctor’s home and practice office.  The existing orientation of spaces is totally reconfigured to maximise natural sun light and air flow in the house. A vast terrace is added to the house, extending the entire living area towards the garden.',
         avatar:"/img/aurveda2.jpg", 
-        photos: ["/img/aurveda1.jpg",'/img/aurveda2.jpg','/img/aurveda3.jpg', '/img/aurveda4.jpg','/img/aurveda5.jpg','/img/aurveda6.jpg']
+        photos: ["/img/aurveda1.jpg",'/img/aurveda3.jpg', '/img/aurveda4.jpg','/img/aurveda5.jpg','/img/aurveda6.jpg']
     } ,
     {
         id:4,
         title: 'Cascinassa',
-        site:   'Pozzo Groppo',
+        site:   'Pozzo Groppo, Italy',
         status: 'Under development',
         year: 2020,
         program: 'masterplan and consultation',
@@ -117,7 +117,7 @@ export const projects = [
     {
         id: 11,
         title: " Woodspace ",
-        site:   'Milano Sesto',
+        site:   'Milano, Italy',
         status: 'Competition',
         year: 2017,
         program: 'Housing Units - innovative technologies',
@@ -140,7 +140,7 @@ export const projects = [
     {
         id: 13,
         title: "The Cut",
-        site:   'Venice',
+        site:   'Doorscape by Oikos and F.Querini Stampalia, Venice',
         status: 'Competition _ Finalist, special mention',
         year: 2023,
         program: ' Domestic Entrance Threshold',
@@ -152,10 +152,10 @@ export const projects = [
     {
         id: 14,
         title: "CASA MUEBLE ",
-        site:   'Milano',
+        site:   'Milano, Italy',
         status: 'Design for a little little house, a shelf house',
         year: 2016,
-        program: ' furniture design',
+        program: ' Furniture design',
         description: 'A little house can host people and maybe a few animals. A little little house, a shelf house, can host only so many books, a plant, a little black television perhaps, a few stuffed animals, too many children toys and dozens of even smaller objects.',
         avatar: "/img/Casa_Mauble1.jpg", 
         photos: ["/img/Casa_Mauble2.jpg", "/img/Casa_Mauble3.png", "/img/Casa_Mauble4.png", "/img/Casa_Mauble5.png", "/img/Casa_Mauble6.png"]
@@ -175,10 +175,10 @@ export const projects = [
     {
         id: 16,
         title: "La Culla ",
-        site:   'Milano',
+        site:   'Milano, Italy',
         status: 'Build',
         year: 2021,
-        program: 'furniture design ',
+        program: 'Furniture design ',
         description: 'How would a deconstructivist or a suprematism painter design a cradle for a sweet baby? How would Kazimir Malevich or Laszlo Moholy-Nagy built a nest for their first born princess girl?',
         avatar: "/img/La_cula2.jpg", 
         photos: ["/img/la_cula1.jpg", "/img/La_cula3.png"]
@@ -186,33 +186,33 @@ export const projects = [
     {
         id: 17,
         title: "Feria de Malaga 2018 ",
-        site:   'Malagaa, Spain',
+        site:   'Malaga, Spain',
         status: 'Competition',
         year: 2018,
         program: 'Graphic Design',
-        description: 'What are the colours and shapes of great summer fiesta in Malaga?',
+        description: 'What are the colours and shapes of a great summer fiesta in Malaga?',
         avatar: "/img/Malaga.png", 
         photos: []
     },
     {
         id: 18,
         title: 'Africa, “The Architectural Review”',
-        site: 'magazine publication',
-        status: 'Publication',
+        site: 'Essay I',
+        status: 'Magazine Publication',
         year: 2021,
         program: '',
         description: 'Imagine finding a scientific magazine entitled “Asia”, pretendeding to somehow tackle the topic of the architectural language of the entire continent, from Japan to Kazakhstan, from Sri Lanka to Mongolia. We would probably smile at the naive attempt, like a professor would at a first-year student’s project. Why does this not happen to us when we read the title “Africa”? Why are we comfortable with the notion of a uniform plot of land, generically similar and easily representable?',
         avatar: "/img/Ardeth_avatar.jpeg", 
-        photos: [ "/img/ardeth1.jpg",  "/img/Ardeth2.jpg", "/img/ardeth3.jpg", "/img/Ardeth4.jpg", "/img/Ardeth5.jpg", "/img/Ardeth6.jpg"]
+        photos: [ "/img/ardeth1.jpg"]
     } ,
 
     {
         id: 19,
         title: '“Per un progetto di testo ‘contraddittorio’. Scrittura e narrazione nell’opera di maestri della teoria architettonica”',
-        site: ' “Atti e Rassegna Tecnica”, Torino',
+        site: ' “Essay II',
         status: 'Magazine Publication',
         year:  2022,
-        program: '',
+        program: ' "Atti e Rassegna Tecnica”, Torino',
         description: "Using linguistics as a reading key for some well known texts of the disciplinary bibliography, this paper aims at understating the construction of one type of architectural text and its narrative peculiarities when utilised with differente programmatic goals. Between these peculiarities one can note the emergence of the subjective author in an exposition usually specialistic and disciplinary. The paper brings together portions of text from some of the Italian maestri of recent architectural theory such as, Vittorio Gregotti, Aldo Rossi, Giancarlo De Carlo, to comprehend how writing may become a sharp tool for the communication of a project and its cultural legitimacy. This contribution intends to highlight how the language(Italian) of the architectural text varies when in the theoretical discourse, the description of the project is equaled by the description of the subject.",
         avatar: "/img/Art_avatar.jpeg", 
         photos: ["/img/ART.jpg",   "/img/ART1.jpg", "/img/ART2.jpg", "/img/ART3.jpg", "/img/ART4.jpg", "/img/ART5.jpg"]
@@ -232,7 +232,7 @@ export const projects = [
     {
         id: 21,
         title: 'WOOD SPRAWL',
-        site: ' Milano',
+        site: ' Milano, Italy',
         status: '',
         year:  2015,
         program: 'Urban Masterplan',
@@ -254,18 +254,18 @@ export const projects = [
     {
         id: 23,
         title: '“Innovation in Practice in theory” AA.VV., Applied Research & Design, San Fransisco US.',
-        site: '',
+        site: 'Essay III',
         status: 'Chapter In Book publication',
         year:  2022,
         program: '',
         description: 'If innovation is a term applied to an instrument that is set to perform a work, this short paper proposes to define a hypothetical work field and goal for architecture as a discipline. Writings of John Ruskin (1819-1900), theoretical scholar of the Victorian period, will here be used for their clear definition of architecture as a tool for an expressed purpose: the establishment of a better society and the formation of personal character through an act of education. Once clarified the objective of the work to pursue, this paper presents the characteristics of innovation in architecture when utilised as a practical instrument, through the theoretical classifications of different scholars of the 20th Century.',
         avatar: "/img/Innovation_avatar.jpeg", 
-        photos: ["/img/Innovation.jpg", "/img/Innovation2.jpg", "/img/Innovation3.jpg"]
+        photos: ["/img/Innovation.jpg"]
     } ,
     {
         id: 24,
         title: 'Ontologia del Vuoto. Ovvero il vuoto e la foresta',
-        site: ' Milano',
+        site: ' Milano, Italy',
         status: 'Research and theory project. Politecnico di Milano, with Stefano Boeri Tutor',
         year:  2016,
         program: 'Urban Masterplan',
@@ -276,7 +276,7 @@ export const projects = [
     , {
     id: 25,
     title: 'Postcard from the future. Istanbul 2014-2064',
-    site: ' Biennale di Venezia, Venice',
+    site: ' Biennale di Venezia, Italy',
     status: ' Research and theory project. Politecnico di Milano and Turkish Pavillion',
     year:  2014,
     program: ' Urban visions',

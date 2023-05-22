@@ -18,7 +18,7 @@
     border:1px solid red;
   }
 
-@media (max-width:560px) {
+@media (max-width:400px) {
     .CookieConsent{
         border: 1px solid rgb(174, 31, 31);
     }

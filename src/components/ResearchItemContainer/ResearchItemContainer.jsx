@@ -1,15 +1,17 @@
 import React from 'react'
 import s from './ResearchItemContainer.module.css'
-import { res } from '../../array/Res/res'
 
-export default function ({title, site, status, year, program, description, avatar, photos, item, files, el}) {
+
+export default function ({title, site, status, year, program, description, avatar, photos, files}) {
   
 const link =  files ? (
-  <p> <a href={files} download> Download </a> </p>
+   <a href={files} download> Download full text </a> 
 ) : null
 
 
-    return (
+const photoStyle = files ?  ({className: s.isseyStyle}) : ({className: s.photo_search});
+  
+return (
     <div>
         <div className={s.top}>
     <div className={s.res_item_left}>
@@ -33,9 +35,9 @@ const link =  files ? (
   </div>
  
   <div className={s.arr_res_photo}>
- <p>
-  { photos.map(photoUrl => <img src={photoUrl} alt='t' className={s.arr_photo}/> )}
-</p>
+ 
+  <p>{ photos.map(photoUrl => <img src={photoUrl} alt='t' {...photoStyle} /> )} </p>
+
 </div>
 
 </div>
