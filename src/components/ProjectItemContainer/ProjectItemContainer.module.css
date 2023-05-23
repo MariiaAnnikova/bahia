@@ -89,19 +89,20 @@ transition: all 0.5s ease;
   z-index: 1;
 }
 
-   @media(max-width: 400px){
+   @media(max-width: 420px){
    
        
 .top {
- 
+
+ width: 400px;
  display: flex;
  flex-direction: column;
  gap: 10px;
  padding-top: 0px;
- margin-top: 30px;
-    margin-left: -20px;
+ margin-top: 50px;
+    margin-left: 0px;
     margin-right: 0px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
    
 
 }
@@ -136,17 +137,18 @@ transition: all 0.5s ease;
 }
 
 .project_item_left h4:nth-child(6) {
+
       margin-top: 10px;
       font-size: 12px;
       line-height: 25px;
       font-weight: 400;
       font-family: 'Montserrat';
-     width: 399px;
+     width: 400px;
   
   }
 
   .descr{
-    width: 399px;
+    width: 400px;
   
   }
   
@@ -155,18 +157,19 @@ transition: all 0.5s ease;
   width: 400px;
 object-fit: contain;
  transition: none;
- margin-left: 50px;
+ margin-left: 0px;
 }
 .avatar:hover{
   display: block;
   transform: scale(1, 1);
 }
 .project_item_left{
+
  justify-content: center;
  display: flex;
  justify-items: center;
  width: 400px;
-margin: 50px;
+margin: 0px;
 }
 
 .arr_photo:hover {
@@ -196,10 +199,17 @@ margin: 50px;
 
 width: 400px;
         margin-left: 0px;
-        margin: 10px 30px; 
+        margin: 0px 0px; 
+        
 object-fit: contain;
 transition: all 0.5s ease;
-height: 400px;
+}
+
+.all_page{
+  width: 400px;
+
+  margin-bottom: 30px;
+  margin-left: 10px;
 }
 
    }

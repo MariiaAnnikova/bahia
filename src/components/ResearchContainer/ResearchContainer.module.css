@@ -38,7 +38,7 @@ font-size: 15px;
     opacity: 1;
     }
 
-    @media(max-width: 400px){
+    @media(max-width: 420px){
     
         .research_container{
             max-width: 95%;

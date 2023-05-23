@@ -17,7 +17,7 @@
     font-family: Lato;
 }
 
-@media (max-width:400px) {
+@media (max-width:420px) {
 .cookies_container {
         border: 1px solid rgb(174, 31, 31);
     }

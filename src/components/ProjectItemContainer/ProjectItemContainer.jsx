@@ -11,7 +11,7 @@ console.log(photos);
   // console.log(All); 
   
    return (
- <div>  
+ <div className={s.all_page}>  
 <div className={s.top}>
     <div className={s.project_item_left}>
     <h1>{title}</h1>

@@ -16,9 +16,9 @@
 body {
   max-width: 1920px;
   min-height: 100vh;
- display: flex;
- flex-direction: column;
+ /* display: flex; */
+ /* flex-direction: column; */
 }
-@media  (max-width: 400px){
+@media  (max-width: 420px){
   
 }

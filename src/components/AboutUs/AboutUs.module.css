@@ -88,10 +88,6 @@ color: black;
 
 }
 
-.ph_gloria{
-    margin-left: 60px;
-}
-
 .us_map{
 
 position: relative;
@@ -105,10 +101,10 @@ position: relative;
  
 }
 
-@media(max-width: 400px){
+@media(max-width: 420px){
 
     .us_block {
-    
+       
         align-items: center;
         justify-content: center;
         margin-bottom: 50px;
@@ -123,8 +119,8 @@ position: relative;
            display: flex;
            align-items: center;
            justify-content: center;
-           height: 480px;
-           width: 500px;
+           height: 420px;
+           width: 420px;
            object-fit: contain;
            transition: none;
        
@@ -134,9 +130,10 @@ position: relative;
            transform: scale(1.1, 1.1);
        } */
        .us_info {
+     
         margin: 0px 0px 0px 10px;
         height: 350px;
-        width: 530px;
+        width: 400px;
     
        }
        .us_up {
@@ -155,7 +152,7 @@ position: relative;
        }
        .contact_block{
         margin: 0px 0px 0px 10px;
-           width: 530px;
+           width: 400px;
          
            display: flex;
            flex-direction: column;
@@ -171,8 +168,9 @@ position: relative;
         }
 
        .info_icons_phone{  
+       
         display: flex;
-        gap:30px;
+        gap:0px;
         font-family: 'Montserrat';
         font-weight:  400;
         font-size: 16px;

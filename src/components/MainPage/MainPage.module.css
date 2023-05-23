@@ -36,16 +36,16 @@
        
        
 
-     @media(max-width: 400px){
+     @media(max-width: 420px){
         .main {
-        
+             /* border: 1px solid red; */
             min-height: calc(100vh - 270px);
             display: flex;
-            padding-top: 20px;
+            padding-top: 0px;
             align-items: center;
             justify-content: center;
-            max-width: 100%;
-            margin-left: 0px;
+           width: 400px;
+          
         }
         .main a {
             text-decoration: none;
@@ -53,11 +53,12 @@
         }
         
         .logo img {
-
+            
             height: 146.5px;
             width: 114.5px;
             cursor: pointer;
            margin-bottom: 30px;
+           margin-left: 117px;
            display: flex;
             align-items: center;
             justify-content: center;
@@ -72,7 +73,7 @@
                  font-weight:  200;
                  font-size: 13px;
                  text-transform: uppercase;
-                 margin-left: 40px;
+                 margin-left: 0px;
 
                
             
