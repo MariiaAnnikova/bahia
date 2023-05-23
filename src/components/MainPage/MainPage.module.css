@@ -4,8 +4,6 @@
     margin-top: 110px;
     align-items: center;
     justify-content: center;
-
- 
 }
 .main a {
     text-decoration: none;
@@ -38,13 +36,15 @@
 
      @media(max-width: 420px){
         .main {
-             /* border: 1px solid red; */
+           
             min-height: calc(100vh - 270px);
             display: flex;
-            padding-top: 0px;
+            margin-top: 110px;
             align-items: center;
             justify-content: center;
-           width: 400px;
+           width: 420px;
+           margin-bottom: 30px;
+          
           
         }
         .main a {
@@ -57,7 +57,7 @@
             height: 146.5px;
             width: 114.5px;
             cursor: pointer;
-           margin-bottom: 30px;
+           margin-bottom: 60px;
            margin-left: 117px;
            display: flex;
             align-items: center;

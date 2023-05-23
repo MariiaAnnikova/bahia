@@ -64,22 +64,18 @@
 .avatar:hover{
     transform: scale(1.1, 1.1);
 }
-.arr_photo {
-    display:inline-grid;
-    grid-template-columns: repeat(3, 1fr);
-    position: relative;
-    left: 60px;
-    height: 400px;
-    width: 400px;
-    margin: 30px;
-    object-fit: contain;
-    transition: all 0.5s ease;
-   
+.arr_arch_photo img  {
+  margin: 20px 40px;
+width: 400px;
+object-fit: contain;
+transition: all 0.5s ease;
 }
-.arr_photo:hover {
-    transform: scale(1.4, 1.4);
-    z-index: 1;
+.arr_photo:hover{
+  align-items: center;
+  transform: scale(1.4, 1.4);
+  z-index: 1;
 }
+
 
 @keyframes fadeIn {
     0% { opacity: 0; }
@@ -89,11 +85,16 @@
   @media(max-width: 420px){
 
 .top{
-  display: flex;
+
+  width: 400px;
+ display: flex;
  flex-direction: column;
- gap: 20px;
+ gap: 10px;
  padding-top: 0px;
- margin-top: 50px;
+ margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
  
 
 }
@@ -126,17 +127,23 @@
   font-family: 'Montserrat';
 }
 
-.descr{
-  display: none;
+.arch_item_left h4:nth-child(6) {
+
+  margin-top: 10px;
+  font-size: 12px;
+  line-height: 25px;
+  font-weight: 400;
+  font-family: 'Montserrat';
+ width: 400px;
+
 }
   
 .avatar {
-max-width: 500px;
-max-height: 400px;
-  object-fit: contain;
-  transition: none;
-  
-}
+width: 400px;
+height: 350px;
+object-fit: contain;
+transition: none;
+  }
 .avatar:hover{
   display: block;
   transform: scale(1, 1);
@@ -147,7 +154,7 @@ max-height: 400px;
  justify-items: center;
 
  width: 400px;
- margin-left: 50px;
+ margin-left: 0px;
 }
 
 .arr_photo:hover {
@@ -158,20 +165,26 @@ max-height: 400px;
 
 
 }
+.arch_item_left{
 
-.arr_photo {
- columns: 1;
- position: relative;
-  display: flex;
-  left: 0px;
-  height: 400px;
-  width: 500px;
-  margin: 20px 10px;
-  object-fit: contain;
-  transition: none;
- 
 }
 
+.arr_arch_photo img {
 
+  width: 400px;
+  margin-left: 0px;
+  margin: 10px 0px; 
+  
+object-fit: contain;
+transition: all 0.5s ease;
+ 
+}
+.all_page{
+  width: 400px;
 
-  }
+  margin-bottom: 30px;
+  margin-left: 10px;
+}
+
+   }
+
