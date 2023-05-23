@@ -12,7 +12,7 @@ const link =  files ? (
 const photoStyle = files ?  ({className: s.isseyStyle}) : ({className: s.photo_search});
   
 return (
-    <div>
+    <div className={s.all_page}>
         <div className={s.top}>
     <div className={s.res_item_left}>
     

@@ -3,11 +3,10 @@
  align-items: center;
     justify-content: center;
 }
-.photo_us {
-  
+.photo_us{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
 }
 .photo_us img {
     display: flex;
@@ -40,6 +39,7 @@
 }
 
 .us_down{
+  
     font-family: 'Montserrat';
     font-weight:  200;
     font-size: 20px;
@@ -50,6 +50,8 @@
    
 }
 .contact_block{
+  
+    padding: 10px;
     text-decoration: none;
     margin: 50px 150px 150px 100px;
     display: flex;
@@ -94,8 +96,9 @@ position: relative;
 }
 
 .us_google_map{
+   
     position: absolute;
-    left: 800px;
+    left: 820px;
  top: -180px;
  
  
@@ -104,10 +107,10 @@ position: relative;
 @media(max-width: 420px){
 
     .us_block {
-       
+ 
         align-items: center;
         justify-content: center;
-        margin-bottom: 50px;
+        margin-bottom: 100px;
        }
        .photo_us {
          
@@ -137,6 +140,8 @@ position: relative;
     
        }
        .us_up {
+        width: 400px;
+       
            font-family: 'Montserrat';
            font-weight:  500;
            font-size: 15px;
@@ -153,7 +158,7 @@ position: relative;
        .contact_block{
         margin: 0px 0px 0px 10px;
            width: 400px;
-         
+       
            display: flex;
            flex-direction: column;
            justify-content: space-between;

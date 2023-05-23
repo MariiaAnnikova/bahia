@@ -134,11 +134,11 @@ transition: all 0.5s ease;
   line-height: 25px;
   font-weight: 400;
   font-family: 'Montserrat';
- width: 400px;
+ width: 390px;
 
 }
-  
 .avatar {
+  border:1px solid firebrick;
 width: 400px;
 height: 350px;
 object-fit: contain;
@@ -152,8 +152,7 @@ transition: none;
  justify-content: center;
  display: flex;
  justify-items: center;
-
- width: 400px;
+ width: 390px;
  margin-left: 0px;
 }
 
@@ -165,12 +164,10 @@ transition: none;
 
 
 }
-.arch_item_left{
 
-}
 
 .arr_arch_photo img {
-
+ border: 1px solid teal;
   width: 400px;
   margin-left: 0px;
   margin: 10px 0px; 

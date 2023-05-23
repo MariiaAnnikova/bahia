@@ -209,13 +209,13 @@ export const projects = [
     {
         id: 19,
         title: '“Per un progetto di testo ‘contraddittorio’. Scrittura e narrazione nell’opera di maestri della teoria architettonica”',
-        site: ' “Essay II',
+        site: ' Essay II',
         status: 'Magazine Publication',
         year:  2022,
         program: ' "Atti e Rassegna Tecnica”, Torino',
         description: "Using linguistics as a reading key for some well known texts of the disciplinary bibliography, this paper aims at understating the construction of one type of architectural text and its narrative peculiarities when utilised with differente programmatic goals. Between these peculiarities one can note the emergence of the subjective author in an exposition usually specialistic and disciplinary. The paper brings together portions of text from some of the Italian maestri of recent architectural theory such as, Vittorio Gregotti, Aldo Rossi, Giancarlo De Carlo, to comprehend how writing may become a sharp tool for the communication of a project and its cultural legitimacy. This contribution intends to highlight how the language(Italian) of the architectural text varies when in the theoretical discourse, the description of the project is equaled by the description of the subject.",
         avatar: "/img/Art_avatar.jpeg", 
-        photos: ["/img/ART.jpg",   "/img/ART1.jpg", "/img/ART2.jpg", "/img/ART3.jpg", "/img/ART4.jpg", "/img/ART5.jpg"]
+        photos: ["/img/ART.jpg"]
     } ,
     
     {
