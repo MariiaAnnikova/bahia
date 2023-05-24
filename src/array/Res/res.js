@@ -48,8 +48,8 @@ export const res = [
     {
         id: 5,
         title: 'Africa, “The Architectural Review”',
-        site: 'magazine publication',
-        status: 'Publication',
+        site: 'Essay I',
+        status: 'Magazine Publication',
         year: 2021,
         program: '',
         description: 'Imagine finding a scientific magazine entitled “Asia”, pretendeding to somehow tackle the topic of the architectural language of the entire continent, from Japan to Kazakhstan, from Sri Lanka to Mongolia. We would probably smile at the naive attempt, like a professor would at a first-year student’s project. Why does this not happen to us when we read the title “Africa”? Why are we comfortable with the notion of a uniform plot of land, generically similar and easily representable?',
@@ -61,10 +61,10 @@ export const res = [
     {
         id: 6,
         title: '“Per un progetto di testo ‘contraddittorio’. Scrittura e narrazione nell’opera di maestri della teoria architettonica”',
-        site: ' “Atti e Rassegna Tecnica”, Torino',
+        site: ' "Essay II" ',
         status: 'Magazine Publication',
         year:  2022,
-        program: '',
+        program: '"Atti e Ressegna Tecnica", Torino',
         description: "Using linguistics as a reading key for some well known texts of the disciplinary bibliography, this paper aims at understating the construction of one type of architectural text and its narrative peculiarities when utilised with differente programmatic goals. Between these peculiarities one can note the emergence of the subjective author in an exposition usually specialistic and disciplinary. The paper brings together portions of text from some of the Italian maestri of recent architectural theory such as, Vittorio Gregotti, Aldo Rossi, Giancarlo De Carlo, to comprehend how writing may become a sharp tool for the communication of a project and its cultural legitimacy. This contribution intends to highlight how the language(Italian) of the architectural text varies when in the theoretical discourse, the description of the project is equaled by the description of the subject.",
         avatar: "/img/Art_avatar.jpeg", 
         photos: ["/img/ART.jpg"],
@@ -107,7 +107,7 @@ export const res = [
     {
         id: 10,
         title: '“Innovation in Practice in theory” AA.VV., Applied Research & Design, San Fransisco US.',
-        site: '',
+        site: 'Essay III',
         status: 'Chapter In Book publication',
         year:  2022,
         program: '',

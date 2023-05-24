@@ -203,7 +203,9 @@ export const projects = [
         program: '',
         description: 'Imagine finding a scientific magazine entitled “Asia”, pretendeding to somehow tackle the topic of the architectural language of the entire continent, from Japan to Kazakhstan, from Sri Lanka to Mongolia. We would probably smile at the naive attempt, like a professor would at a first-year student’s project. Why does this not happen to us when we read the title “Africa”? Why are we comfortable with the notion of a uniform plot of land, generically similar and easily representable?',
         avatar: "/img/Ardeth_avatar.jpeg", 
-        photos: [ "/img/ardeth1.jpg"]
+        photos: [ "/img/ardeth1.jpg"],
+      
+        files: ["/File/ardeth-2770.pdf"],
     } ,
 
     {
@@ -215,7 +217,8 @@ export const projects = [
         program: ' "Atti e Rassegna Tecnica”, Torino',
         description: "Using linguistics as a reading key for some well known texts of the disciplinary bibliography, this paper aims at understating the construction of one type of architectural text and its narrative peculiarities when utilised with differente programmatic goals. Between these peculiarities one can note the emergence of the subjective author in an exposition usually specialistic and disciplinary. The paper brings together portions of text from some of the Italian maestri of recent architectural theory such as, Vittorio Gregotti, Aldo Rossi, Giancarlo De Carlo, to comprehend how writing may become a sharp tool for the communication of a project and its cultural legitimacy. This contribution intends to highlight how the language(Italian) of the architectural text varies when in the theoretical discourse, the description of the project is equaled by the description of the subject.",
         avatar: "/img/Art_avatar.jpeg", 
-        photos: ["/img/ART.jpg"]
+        photos: ["/img/ART.jpg"],
+        files: ["/File/ART_cartocci.pdf"],
     } ,
     
     {
@@ -260,7 +263,8 @@ export const projects = [
         program: '',
         description: 'If innovation is a term applied to an instrument that is set to perform a work, this short paper proposes to define a hypothetical work field and goal for architecture as a discipline. Writings of John Ruskin (1819-1900), theoretical scholar of the Victorian period, will here be used for their clear definition of architecture as a tool for an expressed purpose: the establishment of a better society and the formation of personal character through an act of education. Once clarified the objective of the work to pursue, this paper presents the characteristics of innovation in architecture when utilised as a practical instrument, through the theoretical classifications of different scholars of the 20th Century.',
         avatar: "/img/Innovation_avatar.jpeg", 
-        photos: ["/img/Innovation.jpg"]
+        photos: ["/img/Innovation.jpg"],
+        files: ["/File/INNOVATION.pdf"],
     } ,
     {
         id: 24,
