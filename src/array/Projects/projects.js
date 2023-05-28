@@ -2,7 +2,7 @@ export const projects = [
     {
         id:1,
         title: 'A Little Sauna',
-        site: 'Roccheta Ligure, Italy',
+        site: 'Rocchetta Ligure, Italy',
         status: 'Under Constraction',
         year: 2020,
         program: ' Sauna',
@@ -14,18 +14,18 @@ export const projects = [
     {
         id:2,
         title: 'Barn House Renovation',
-        site: 'Roccheta Ligure, Italy',
+        site: 'Rocchetta Ligure, Italy',
         status: 'Built',
         year: 2021,
         program: 'Private House - renovation',
         description: 'The renovation of an old barn house focuses on maintaining the presence of the central void and the character of the original materials. Stone, wood, terracotta floors. A private house for a family of yogis whose life is entirely dedicated to meditation. The building is a continuous interaction between reserved and defined spaces with larger and open spaces. The central height is the main feature of the house, which is nothing more than a few rooms around a precise void.',
         avatar: "/img/Celio2.jpg", 
-        photos:  ["/img/Celio1.jpg", "/img/Celio3.jpg", '/img/Celio4.jpg']
+        photos:  ["/img/Celio1.jpg", "/img/Celio3.jpg", '/img/Celio4.jpg', '/img/Celio5.jpg', '/img/Celio6.jpg', '/img/Celio7.jpg', '/img/Celio8.jpg', '/img/Celio9.jpg']
     },
 
     {
         id:3,
-        title: 'Casa per un medico ayurveda',
+        title: 'Casa per una dottoressa ayurveda',
         site: 'Verona, Italy',
         status: 'Built',
         year: 2018,
@@ -37,7 +37,7 @@ export const projects = [
     {
         id:4,
         title: 'Cascinassa',
-        site:   'Pozzo Groppo, Italy',
+        site:   'Pozzol Groppo, Italy',
         status: 'Under development',
         year: 2020,
         program: 'masterplan and consultation',
@@ -58,14 +58,14 @@ export const projects = [
     } ,
     {
         id:6,
-        title: '',
+        title: 'GA.44.MI',
         site:   'Milano, Italy',
         status: 'Built',
         year: 2019,
         program: 'Privet House -renovation',
         description: 'An apartment for a young and happy couple in Milano. The internal distribution and layout is totally reconfigured, minimising the waste space of long corridors of milanese old tradition. The new living room is defined by a large and continuous wardrobe that becomes shelves, bench, fridge, private door. The rooms are one and later two. Agility of usage is a key factor for a dynamic couple with a cake in the oven. ',
         avatar: "/img/gami1.png",
-        photos: ['/img/gami2.jpg', '/img/gami3.jpg', '/img/gami4.png']
+        photos: ['/img/gami2.jpg', '/img/gami4.png', '/img/gami5.jpg', '/img/gami7.jpg']
        
     },
     {

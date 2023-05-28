@@ -2,11 +2,11 @@
 export const res = [
     {
         id: 1,
-        title: "CASA MOBILE ",
-        site:   'Milano',
+        title: "CASA MUEBLE ",
+        site:   'Milano, Italy',
         status: 'Design for a little little house, a shelf house',
         year: 2016,
-        program: ' furniture design',
+        program: ' Furniture design',
         description: 'A little house can host people and maybe a few animals. A little little house, a shelf house, can host only so many books, a plant, a little black television perhaps, a few stuffed animals, too many children toys and dozens of even smaller objects.',
         avatar: "/img/Casa_Mauble1.jpg", 
         photos: ["/img/Casa_Mauble2.jpg", "/img/Casa_Mauble3.png", "/img/Casa_Mauble4.png", "/img/Casa_Mauble5.png", "/img/Casa_Mauble6.png"]
@@ -26,10 +26,10 @@ export const res = [
     {
         id: 3,
         title: "La Culla ",
-        site:   'Milano',
+        site:   'Milano, Italy',
         status: 'Build',
         year: 2021,
-        program: 'furniture design ',
+        program: 'Furniture design ',
         description: 'How would a deconstructivist or a suprematism painter design a cradle for a sweet baby? How would Kazimir Malevich or Laszlo Moholy-Nagy built a nest for their first born princess girl?',
         avatar: "/img/La_cula2.jpg", 
         photos: ["/img/la_cula1.jpg", "/img/La_cula3.png"]
@@ -37,11 +37,11 @@ export const res = [
     {
         id: 4,
         title: "Feria de Malaga 2018 ",
-        site:   'Malagaa, Spain',
+        site:   'Malaga, Spain',
         status: 'Competition',
         year: 2018,
         program: 'Graphic Design',
-        description: 'What are the colours and shapes of great summer fiesta in Malaga?',
+        description: 'What are the colours and shapes of a great summer fiesta in Malaga?',
         avatar: "/img/Malaga.png", 
         photos: []
     },
@@ -55,16 +55,17 @@ export const res = [
         description: 'Imagine finding a scientific magazine entitled “Asia”, pretendeding to somehow tackle the topic of the architectural language of the entire continent, from Japan to Kazakhstan, from Sri Lanka to Mongolia. We would probably smile at the naive attempt, like a professor would at a first-year student’s project. Why does this not happen to us when we read the title “Africa”? Why are we comfortable with the notion of a uniform plot of land, generically similar and easily representable?',
         avatar: "/img/Ardeth_avatar.jpeg", 
         photos: [ "/img/ardeth1.jpg"],
+      
         files: ["/File/ardeth-2770.pdf"],
     } ,
 
     {
         id: 6,
         title: '“Per un progetto di testo ‘contraddittorio’. Scrittura e narrazione nell’opera di maestri della teoria architettonica”',
-        site: ' "Essay II" ',
+        site: ' Essay II',
         status: 'Magazine Publication',
         year:  2022,
-        program: '"Atti e Ressegna Tecnica", Torino',
+        program: ' "Atti e Rassegna Tecnica”, Torino',
         description: "Using linguistics as a reading key for some well known texts of the disciplinary bibliography, this paper aims at understating the construction of one type of architectural text and its narrative peculiarities when utilised with differente programmatic goals. Between these peculiarities one can note the emergence of the subjective author in an exposition usually specialistic and disciplinary. The paper brings together portions of text from some of the Italian maestri of recent architectural theory such as, Vittorio Gregotti, Aldo Rossi, Giancarlo De Carlo, to comprehend how writing may become a sharp tool for the communication of a project and its cultural legitimacy. This contribution intends to highlight how the language(Italian) of the architectural text varies when in the theoretical discourse, the description of the project is equaled by the description of the subject.",
         avatar: "/img/Art_avatar.jpeg", 
         photos: ["/img/ART.jpg"],
@@ -85,7 +86,7 @@ export const res = [
     {
         id: 8,
         title: 'WOOD SPRAWL',
-        site: ' Milano',
+        site: ' Milano, Italy',
         status: '',
         year:  2015,
         program: 'Urban Masterplan',
@@ -119,7 +120,7 @@ export const res = [
     {
         id: 11,
         title: 'Ontologia del Vuoto. Ovvero il vuoto e la foresta',
-        site: ' Milano',
+        site: ' Milano, Italy',
         status: 'Research and theory project. Politecnico di Milano, with Stefano Boeri Tutor',
         year:  2016,
         program: 'Urban Masterplan',
@@ -130,7 +131,7 @@ export const res = [
     , {
     id: 12,
     title: 'Postcard from the future. Istanbul 2014-2064',
-    site: ' Biennale di Venezia, Venice',
+    site: ' Biennale di Venezia, Italy',
     status: ' Research and theory project. Politecnico di Milano and Turkish Pavillion',
     year:  2014,
     program: ' Urban visions',

@@ -70,7 +70,8 @@
 }
 .arr_arch_photo img  {
 
-  margin: 20px 40px;
+  margin-top: 20px;
+  margin-left: 50px;
 width: 400px;
 object-fit: contain;
 transition: all 0.5s ease;
@@ -82,7 +83,7 @@ transition: all 0.5s ease;
 }
 
 .arr_arch_photo{
- 
+  margin-left: 50px;
   margin-bottom: 50px;
 }
 @keyframes fadeIn {

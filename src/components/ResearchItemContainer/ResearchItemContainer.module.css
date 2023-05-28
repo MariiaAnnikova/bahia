@@ -9,7 +9,7 @@
 }
 .res_item_left{
     margin-top: 50px;
-   text-align: justify;
+ 
     width: 700px;
     display: flex;
     flex-direction: column;
@@ -55,6 +55,7 @@
      line-height: 25px;
      font-weight: 400;
      font-family: 'Montserrat';
+     text-align: justify;
  
 }
   .avatar {

@@ -19,7 +19,7 @@ return (
 
    </Link>
    <div className={s.logo_title}>
-   <p>imagine beautiful things. that is what we do</p>
+   <p>imagine beautiful things. that is what we do.</p>
   
       </div>
    

@@ -14,8 +14,8 @@
     height: 293px;
     width: 229px;
     cursor: pointer;
-    margin-left: 150px;
-    margin-bottom: 70px;
+    margin-left: 140px;
+    margin-bottom: 180px;
    display: flex;
     align-items: center;
     justify-content: center;
@@ -29,7 +29,7 @@
          font-weight:  200;
          font-size: 20px;
          text-transform: uppercase;
-         margin-left: 30px;
+      
     }
        
        
