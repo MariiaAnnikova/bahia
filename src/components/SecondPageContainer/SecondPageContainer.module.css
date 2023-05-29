@@ -33,11 +33,12 @@ font-size: 15px;
   z-index: 1;
    
 }
-@media(max-width: 420px){
+@media(max-width: 375px){
   
       .second_page_container img{
-     width: 400px;
-        margin-left: 20px;
+        border:1px solid forestgreen;
+     width: 350px;
+        margin-left: 0px;
         margin-bottom: 0px;
     }
 
@@ -64,8 +65,8 @@ font-size: 15px;
 }
 
 .image_container{
-  
-    max-width: 399px;
+    border:1px solid rgb(4, 36, 87);
+    max-width: 360px;
     margin-top: 50px;
     display:block;
 
