@@ -106,7 +106,7 @@ transition: all 0.5s ease;
   z-index: 1;
 }
 
-@media (max-width: 375px) 
+@media (max-width: 376px) 
   {
   .top {
     display: flex;
@@ -120,7 +120,7 @@ transition: all 0.5s ease;
  width: 375px;
   }
 .project_item_left{
-    border:1px solid firebrick;
+   
   justify-content: center;
   display: flex;
   justify-items: center;
@@ -165,18 +165,18 @@ transition: all 0.5s ease;
       
   }
 .avatar {
+ 
    height: 350px;
-   width: 375px;
+   width: 350px;
     object-fit: contain;
     transition: none;
     margin-left: 0px;
     margin-top: 20px;
 }
 .array_project_photo img {
-  /* max-width: 95%; */
-  border:1px solid green;
-  margin: 0px 0px;
-width: 375px;
+
+  margin: 0px 10px;
+width: 350px;
 object-fit: contain;
 transition: none;
 }
@@ -199,7 +199,7 @@ transition: none;
 .isseyStyle img{
   
   height: 350px;
-  width: 375px;
+  width: 350px;
 
   transition: none;
 }

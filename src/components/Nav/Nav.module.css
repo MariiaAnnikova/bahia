@@ -36,7 +36,7 @@ margin-top: 20px;
     cursor: pointer;
 }
 
-@media(max-width: 375px){
+@media(max-width: 376px){
    .icon_plus{
    display: flex;
    flex-direction: column;
@@ -45,7 +45,9 @@ margin-top: 20px;
 font-weight:  400;
 font-size: 50px;
 margin-top: 20px;
-margin-left: -70px;
+
+margin-left: -50px;
+
         }
 .nav_menu.active {
             transform: translateY(0%);
@@ -64,7 +66,7 @@ margin-left: -70px;
      }
          
         .nav_logo img {
-            margin: 20px 0px 0px 40px;
+            margin: 20px 0px 0px 10px;
             height: 73px;
             width: 57px;
 
@@ -79,18 +81,20 @@ margin-left: -70px;
                 margin: 0px 0px 0px 0px;
                 height: 50px;
                 padding: 0px;
-                width: 345px;
+                width: 320px;
+             
         }
      
       .nav_menu {
 transform: translateY(-999%);
-
+width: 350px;
+border:1px solid fuchsia;
       }
     
      
  }
 
- @media (min-width:375px) and (max-width: 420px){
+ @media (min-width:377px) and (max-width: 420px){
     .icon_plus{
     display: flex;
     flex-direction: column;

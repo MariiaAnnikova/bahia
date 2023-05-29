@@ -102,7 +102,7 @@ display: flex;
 margin-left: 0px;
 margin-right: 0px;
 margin-bottom: 0px;
-width: 375px;
+width: 340px;
 border:1px solid rebeccapurple;
 }
 .arch_item_left{
@@ -111,7 +111,7 @@ border:1px solid rebeccapurple;
   display: flex;
   justify-items: center;
   width: 340px;
-  margin: 12px;
+  margin: 0px;
  }
  
 .arch_item_left h1{
@@ -157,8 +157,8 @@ border:1px solid rebeccapurple;
 }
 .avatar {
  
-width: 375px;
-height: 375px;
+width: 340px;
+height: 340px;
 object-fit: contain;
 transition: none;
   }
