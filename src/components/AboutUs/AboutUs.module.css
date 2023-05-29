@@ -104,7 +104,7 @@ position: relative;
  
 }
 
-@media(max-width: 420px){
+@media(max-width: 375px){
 
     .us_block {
  
@@ -122,8 +122,8 @@ position: relative;
            display: flex;
            align-items: center;
            justify-content: center;
-           height: 420px;
-           width: 420px;
+           height: 375px;
+           width: 375px;
            object-fit: contain;
            transition: none;
        
@@ -136,11 +136,11 @@ position: relative;
      
         margin: 0px 0px 0px 10px;
         height: 350px;
-        width: 400px;
+        width: 375px;
     
        }
        .us_up {
-        width: 380px;
+        width: 375px;
        
            font-family: 'Montserrat';
            font-weight:  500;
@@ -157,7 +157,7 @@ position: relative;
        }
        .contact_block{
         margin: 0px 0px 0px 10px;
-           width: 400px;
+           width: 375px;
        
            display: flex;
            flex-direction: column;

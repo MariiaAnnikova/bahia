@@ -6,9 +6,27 @@
    }
 
 
-   @media(max-width: 420px){
+   @media(max-width: 375px){
     .arch_pic_array{
-      columns: 1;
+     
+      width: 375px;
+      margin-top: 20px;
+      margin-left: 0px;
+         columns:1;
+         margin-bottom: 50px;
     }
    
    }
+
+   @media (min-width:375px) and (max-width: 420px){
+    .arch_pic_array{
+     
+      width: 420px;
+      margin-top: 20px;
+      margin-left: 10px;
+         columns:1;
+         margin-bottom: 50px;
+    }
+  
+  }
+  

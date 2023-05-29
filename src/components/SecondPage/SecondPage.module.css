@@ -8,14 +8,25 @@ margin-left: 20px;
  }
   
 
-@media(max-width: 420px){
+@media(max-width: 375px){
  
 .pic_array{
-
-  max-width: 399px;
-  margin-top: 0px;
+  
+  margin-top: 20px;
   margin-left: 0px;
      columns:1;
      margin-bottom: 50px;
 }
+}
+
+@media (min-width:375px) and (max-width: 420px){
+  .pic_array{
+  
+    width: 420px;
+    margin-top: 0px;
+    margin-left: 0px;
+       columns:1;
+       margin-bottom: 50px;
+  }
+
 }

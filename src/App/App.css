@@ -19,6 +19,11 @@ body {
  /* display: flex; */
  /* flex-direction: column; */
 }
-@media  (max-width: 420px){
+@media (max-width: 375px){
   
+
 }
+
+@media (min-width:375px) and (max-width: 420px){}
+
+@media (min-width:420px) and (max-width: 765px){}

@@ -91,43 +91,50 @@ transition: all 0.5s ease;
     100% { opacity: 1; }
   }
 
-  @media(max-width: 420px){
+  @media(max-width: 375px){
 
 .top{
-
-  width: 400px;
- display: flex;
- flex-direction: column;
- gap: 10px;
- padding-top: 0px;
- margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
- 
-
+display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 0px;
+    margin-top: 50px;
+margin-left: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+width: 375px;
+border:1px solid rebeccapurple;
 }
+.arch_item_left{
+  border:1px solid saddlebrown;
+  justify-content: center;
+  display: flex;
+  justify-items: center;
+  width: 340px;
+  margin: 12px;
+ }
+ 
 .arch_item_left h1{
-  font-size: 20px;
-  font-weight: 900;
+  font-size: 14px;
+  font-weight: 500;
   font-family: 'Montserrat';
 
 }
 .arch_item_left h2{
-  font-size: 18px;
+  font-size: 12px;
   font-weight: 500;
   font-family: 'Montserrat';
 }
 
 .arch_item_left h3{
-  font-size: 18px;
+  font-size: 13px;
     font-weight: 400;
     font-family: 'Montserrat';
 }
 
 .arch_item_left h4{
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
   font-family: 'Montserrat';
 }
 .arch_item_left h5{
@@ -137,60 +144,247 @@ transition: all 0.5s ease;
 }
 
 .arch_item_left h4:nth-child(6) {
-
+border:1px solid rebeccapurple;
   margin-top: 10px;
   font-size: 12px;
   line-height: 25px;
   font-weight: 400;
   font-family: 'Montserrat';
- width: 380px;
+ width: 340px;
+ margin-right: 0px;
+
 
 }
 .avatar {
  
-width: 400px;
-height: 350px;
+width: 375px;
+height: 375px;
 object-fit: contain;
 transition: none;
   }
 .avatar:hover{
   display: block;
-  transform: scale(1, 1);
-}
-.arch_item_left{
- justify-content: center;
- display: flex;
- justify-items: center;
- width: 390px;
- margin-left: 0px;
+  transform: none;
 }
 
 .arr_photo:hover {
-  display: block;
+ 
   align-items: center;
-  transform: scale(1, 1);
-  z-index: none;
+  transform: none;
+  z-index: 1;
 
 
 }
 
 
 .arr_arch_photo img {
-
-  width: 400px;
-  margin-left: 0px;
-  margin: 10px 0px; 
-  
+margin: 0px 0px;
+width: 375px;
 object-fit: contain;
-transition: all 0.5s ease;
+transition: none;
+
  
 }
+
+.arr_arch_photo:hover {
+  align-items: center;
+  transform:none;
+  z-index: 0;
+}
 .all_page{
-  width: 400px;
+  width: 375px;
 
   margin-bottom: 30px;
   margin-left: 10px;
 }
+.arr_arch_photo{
+  transform:none;
+  width: 375px;
+  border:1px solid green;
+  margin-left: 0px;
+  margin-bottom: 50px;
+}
 
    }
 
+   @media (min-width:375px) and (max-width: 420px){
+    .top {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding-top: 0px;
+      margin-top: 50px;
+         margin-left: 0px;
+         margin-right: 0px;
+         margin-bottom: 0px;
+   width: 420px;
+  }
+  .arch_item_left{
+    justify-content: center;
+  display: flex;
+  justify-items: center;
+  width: 380px;
+ margin: 12px;
+  }
+    
+  
+    .arch_item_left h1{
+      font-size: 14px;
+      font-weight: 900;
+      font-family: 'Montserrat';
+    }
+  
+    .arch_item_left h2{
+      font-size: 12px;
+      font-weight: 500;
+      font-family: 'Montserrat';
+    }
+    .arch_item_left h3{
+      font-size: 13px;
+      font-weight: 400;
+      font-family: 'Montserrat';
+    }
+    .arch_item_left h4{
+      font-size: 13px;
+      font-weight: 600;
+      font-family: 'Montserrat';
+    }
+    .arch_item_left h5{
+      font-size: 15px;
+      font-weight: 400;
+      font-family: 'Montserrat';
+    }
+    .arch_item_left h4:nth-child(6){
+      margin-top: 10px;
+      margin-right: 0px;
+      font-size: 12px;
+      line-height: 25px;
+      font-weight: 400;
+      font-family: 'Montserrat';
+      text-align: justify;
+    }
+    .avatar {
+    
+  height: 410px;
+  width: 410px;
+   object-fit: contain;
+   transition: none;
+   margin-left: 5px;
+   margin-top: 0px;
+      
+  }
+  
+  .arr_arch_photo img  {
+  
+    margin: 5px 5px;
+width: 410px;
+object-fit: contain;
+transition: none;
+  }
+  .arr_photo:hover{
+    align-items: center;
+    transform: none;
+    z-index: 1;
+  }
+  
+  .arr_arch_photo{
+    margin-left: 0px;
+    margin-bottom: 50px;
+  }
+  @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+   }
+
+   @media (min-width:420px) and (max-width: 735px){
+    .top {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding-top: 0px;
+      margin-top: 50px;
+         margin-left: 0px;
+         margin-right: 0px;
+         margin-bottom: 0px;
+   width: 420px;
+  }
+  .arch_item_left{
+    justify-content: center;
+  display: flex;
+  justify-items: center;
+  width: 380px;
+ margin: 12px;
+  }
+    
+  
+    .arch_item_left h1{
+      font-size: 14px;
+      font-weight: 900;
+      font-family: 'Montserrat';
+    }
+  
+    .arch_item_left h2{
+      font-size: 12px;
+      font-weight: 500;
+      font-family: 'Montserrat';
+    }
+    .arch_item_left h3{
+      font-size: 13px;
+      font-weight: 400;
+      font-family: 'Montserrat';
+    }
+    .arch_item_left h4{
+      font-size: 13px;
+      font-weight: 600;
+      font-family: 'Montserrat';
+    }
+    .arch_item_left h5{
+      font-size: 15px;
+      font-weight: 400;
+      font-family: 'Montserrat';
+    }
+    .arch_item_left h4:nth-child(6){
+      margin-top: 10px;
+      margin-right: 0px;
+      font-size: 12px;
+      line-height: 25px;
+      font-weight: 400;
+      font-family: 'Montserrat';
+      text-align: justify;
+    }
+    .avatar {
+    
+  height: 410px;
+  width: 410px;
+   object-fit: contain;
+   transition: none;
+   margin-left: 5px;
+   margin-top: 0px;
+      
+  }
+  .avatar:hover{
+      transform: none;
+  }
+  .arr_arch_photo img  {
+  
+    margin: 5px 5px;
+width: 410px;
+object-fit: contain;
+transition: none;
+  }
+  .arr_photo:hover{
+    align-items: center;
+    transform: none;
+    z-index: 0;
+  }
+  
+  .arr_arch_photo{
+    margin-left: 0px;
+    margin-bottom: 50px;
+  }
+  @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+   }
