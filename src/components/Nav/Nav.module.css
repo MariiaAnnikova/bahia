@@ -66,7 +66,7 @@ margin-left: -50px;
      }
          
         .nav_logo img {
-            margin: 20px 0px 0px 10px;
+            margin: 20px 0px 0px 40px;
             height: 73px;
             width: 57px;
 
@@ -74,6 +74,7 @@ margin-left: -50px;
         }
          
         .nav_block {
+         
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
@@ -81,14 +82,14 @@ margin-left: -50px;
                 margin: 0px 0px 0px 0px;
                 height: 50px;
                 padding: 0px;
-                width: 320px;
+                width: 376px;
              
         }
      
       .nav_menu {
 transform: translateY(-999%);
-width: 350px;
-border:1px solid fuchsia;
+/* width: 350px; */
+
       }
     
      
@@ -148,7 +149,7 @@ border:1px solid fuchsia;
       
   }
 
-  @media (min-width:420px) and (max-width: 735px){
+  @media (min-width:421px) and (max-width: 737px){
 
     .icon_plus{
         display: flex;

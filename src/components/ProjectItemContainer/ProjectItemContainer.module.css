@@ -160,23 +160,23 @@ transition: all 0.5s ease;
         line-height: 25px;
         font-weight: 400;
         font-family: 'Montserrat';
-      
+  
         width: 340px;
       
   }
 .avatar {
  
-   height: 350px;
-   width: 350px;
+   height: 300px;
+   width: 375px;
     object-fit: contain;
     transition: none;
     margin-left: 0px;
-    margin-top: 20px;
+    margin-top: -10px;
 }
 .array_project_photo img {
 
-  margin: 0px 10px;
-width: 350px;
+  margin: 10px 0px;
+width: 375px;
 object-fit: contain;
 transition: none;
 }
@@ -212,7 +212,7 @@ transition: none;
   
 }
 
-@media (min-width:375px) and (max-width: 420px){
+@media (min-width:377px) and (max-width: 420px){
   .top {
     display: flex;
     flex-direction: column;
@@ -317,8 +317,9 @@ transition: none;
 }
 }
   
-@media (min-width:420px) and (max-width: 735px){
+@media (min-width:421px) and (max-width: 737px){
   .top {
+  
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -328,17 +329,17 @@ transition: none;
        margin-right: 0px;
        margin-bottom: 0px;
  width: 650px;
-  
+ margin-left: 30px; 
   
 }
 .project_item_left{
-    
+  
   justify-content: center;
   display: flex;
   justify-items: center;
   width: 650px;
  margin: 0px;
- margin-left: 45px;
+ margin-left: 0px;
 
   }
 
