@@ -228,132 +228,118 @@ transition: all 0.5s ease;
     }
   }
 
-  @media (min-width:377px) and (max-width: 420px){}
+  @media (min-width:377px) and (max-width: 420px){
 
+  .top {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 0px;
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    width: 420px;
+  
+}
+.res_item_left{
+  justify-content: center;
+  display: flex;
+  justify-items: center;
+  width: 380px;
+ margin: 12px;
+  }
 
+  .res_item_left h1{
+    font-size: 14px;
+    font-weight: 900;
+    font-family: 'Montserrat';
+  }
 
-
-
-
-
-
-
-  @media(max-width: 420px){
-
-    .top{
-     
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      padding-top: 0px;
-      margin-top: 50px;
-         margin-left: 0px;
-         margin-right: 0px;
-         margin-bottom: 0px;
-   width: 400px;
-    
-    }
-    .res_item_left h1{
-      font-size: 20px;
-      font-weight: 900;
-      font-family: 'Montserrat';
-    
-    }
-    .res_item_left h2{
-      font-size: 18px;
-      font-weight: 500;
-      font-family: 'Montserrat';
-    }
-    
-    .res_item_left h3{
-      font-size: 18px;
-        font-weight: 400;
-        font-family: 'Montserrat';
-    }
-    
-    .res_item_left h4{
-      font-size: 18px;
-      font-weight: 500;
-      font-family: 'Montserrat';
-    }
-    .res_item_left h5{
-      font-size: 15px;
-      font-weight: 400;
-      font-family: 'Montserrat';
-    }
-    
-.res_item_left h4:nth-child(6) {
+  .res_item_left h2{
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Montserrat';
+  }
+  .res_item_left h3{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Montserrat';
+  }
+  .res_item_left h4{
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Montserrat';
+  }
+  .res_item_left h5{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Montserrat';
+  }
+  
+ .res_item_left h4:nth-child(6) {
   margin-top: 10px;
-  font-size: 12px;
-  line-height: 25px;
-  font-weight: 400;
-  font-family: 'Montserrat';
- width: 380px;
-          
-      }
-  
-      
-    .avatar {
-      height: 350px;
-      width: 400px;
-    object-fit: contain;
-     transition: none;
-     margin-left: 0px;
-      
-    }
-    .avatar:hover{
-      display: block;
-      transform: scale(1, 1);
-    }
-    .res_item_left{
-    
-      justify-content: center;
- display: flex;
- justify-items: center;
- width: 390px;
-margin: 0px;
-    }
-    
-   
-    
-    .arr_res_photo img{
-
-      width: 400px;
-  margin-left: 0px;
-  margin: 10px 0px; 
-  
-object-fit: contain;
-transition: all 0.5s ease;
-      
-    }
-    
-    .all_page{
-  
-      width: 400px;
-
-  margin-bottom: 30px;
-  margin-left: 10px;
-    }
-    
-    .arr_res_photo .isseyStyle{
+     font-size: 12px;
+     line-height: 25px;
+     font-weight: 400;
+     font-family: 'Montserrat';
+     text-align: justify;
  
-      margin-left: 0px;
-     
-    
-    }
-    .isseyStyle img{
-      
-      height: 700px;
-      width: 800px;
-    
-      transition: none;
-    }
-    
-    .isseyStyle:hover {
-      
-      transform: scale(1, 1);
-      z-index: 1;
-    }
+}
+  .avatar {
+    height: 410px;
+    width: 410px;
+    object-fit: contain;
+    transition: none;
+    margin-left: 5px;
+    margin-top: 0px;
+}
+
+
+.arr_res_photo img{
+  margin: 5px 5px;
+width: 410px;
+object-fit: contain;
+transition: none;
+  
+}
+.arr_res_photo{
+  margin-bottom: 50px;
+}
+
+.photo_search:hover {
+  align-items: center;
+    transform: none;
+    z-index: 0;
+}
+.arr_res_photo .isseyStyle{
+ 
+  margin-left: 0px;
+ 
+
+}
+.isseyStyle img{
+  
+  height: 410px;
+  width: 410px;
+
+  transition: none;
+}
+
+.isseyStyle:hover {
+  
+  transform: none;
+  z-index: 1;
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+ 
+  .all_page{
+  margin-bottom: 30px;
+ width: 420px;
+  }
 }
 
 @media (min-width:421px) and (max-width: 737px){
@@ -411,11 +397,11 @@ width: 650px;
 
     
   .avatar {
-    height: 650px;
+ 
     width: 650px;
   object-fit: contain;
    transition: none;
-   margin-left: 0px;
+   margin-left: -30px;
     
   }
   .avatar:hover{

@@ -378,7 +378,7 @@ transition: none;
       
   }
 .avatar {
-   height: 650px;
+  
    width: 650px;
     object-fit: contain;
     transition: none;
